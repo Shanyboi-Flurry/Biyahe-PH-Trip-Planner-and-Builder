@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Destinations | Philippines Trip</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/destinations.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Philippines Trip Planner</h1>
+    <nav class="navbar">
+        <a href="destinations.html" class="active">Destinations</a>
+        <a href="budget-planner.html">Budget Planner</a>
+        <a href="food-festivals.html">Food & Festivals</a>
+        <a href="commute-guide.html">Commute Guide</a>
+        <a href="tips-phrases.html">Tips & Phrases</a>
+        <a href="contact-faq.html">Contact & FAQ</a>
+    </nav>
+    <button id="themeBtn" type="button">Dark mode</button>
+  </header>
+
+  <main>
+    <h2>Destinations</h2>
+    <p>Find a place to visit.</p>
+    <input id="search" type="text" placeholder="Search a place">
+   
+    <div id="placeList" class="cards"></div>
+  </main>
+
+  <footer>
+    <p>Prices are rough estimates in pesos.</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/destinations.js"></script>
+</body>
+</html>
