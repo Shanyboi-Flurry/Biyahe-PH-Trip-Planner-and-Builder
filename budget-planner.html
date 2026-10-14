@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Budget Planner | Philippines Trip</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/budget-planner.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Philippines Trip Planner</h1>
+    <nav class="navbar">
+        <a href="destinations.html">Destinations</a>
+        <a href="budget-planner.html" class="active">Budget Planner</a>
+        <a href="food-festivals.html">Food & Festivals</a>
+        <a href="commute-guide.html">Commute Guide</a>
+        <a href="tips-phrases.html">Tips & Phrases</a>
+        <a href="contact-faq.html">Contact & FAQ</a>
+    </nav>
+    <button id="themeBtn" type="button">Dark mode</button>
+  </header>
+
+  <main>
+    <h2>Budget Planner</h2>
+    <p>Pick a place, the number of days and travelers.</p>
+    <form id="budgetForm">
+      <label>Place <select id="place"></select></label>
+      <label>Days <input id="days" type="number" min="1" value="3"></label>
+      <label>Travelers <input id="people" type="number" min="1" value="2"></label>
+      <button type="submit">Compute</button>
+    </form>
+    <p id="total"></p>
+  <footer>
+    <p>Prices are rough estimates in pesos.</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/budget-planner.js"></script>
+</body>
+</html>
