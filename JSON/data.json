@@ -1,0 +1,312 @@
+{
+  "destinations": [
+    {
+      "name": "El Nido, Palawan",
+      "region": "Luzon",
+      "blurb": "Limestone cliffs, lagoons and island hopping.",
+      "costPerDay": 2000,
+      "id": "elnido",
+      "tags": [
+        "beach",
+        "nature"
+      ],
+      "acts": [
+        {
+          "name": "Island hopping tour A",
+          "cost": 1400
+        },
+        {
+          "name": "Kayak at Small Lagoon",
+          "cost": 500
+        },
+        {
+          "name": "Nacpan Beach trip",
+          "cost": 600
+        }
+      ]
+    },
+    {
+      "name": "Cebu",
+      "region": "Visayas",
+      "blurb": "Waterfalls, canyoneering and whale sharks.",
+      "costPerDay": 2100,
+      "id": "cebu",
+      "tags": [
+        "adventure",
+        "food"
+      ],
+      "acts": [
+        {
+          "name": "Kawasan Falls canyoneering",
+          "cost": 1500
+        },
+        {
+          "name": "Oslob whale shark",
+          "cost": 1500
+        },
+        {
+          "name": "Moalboal sardine run",
+          "cost": 300
+        }
+      ]
+    },
+    {
+      "name": "Siargao",
+      "region": "Mindanao",
+      "blurb": "Surfing and island life.",
+      "costPerDay": 2200,
+      "id": "siargao",
+      "tags": [
+        "beach",
+        "adventure"
+      ],
+      "acts": [
+        {
+          "name": "Surf lesson",
+          "cost": 700
+        },
+        {
+          "name": "Island hopping",
+          "cost": 1200
+        },
+        {
+          "name": "Sugba Lagoon",
+          "cost": 1500
+        }
+      ]
+    },
+    {
+      "name": "Banaue",
+      "region": "Luzon",
+      "blurb": "Rice terraces carved into the mountains.",
+      "costPerDay": 1500,
+      "id": "banaue",
+      "tags": [
+        "nature",
+        "history"
+      ],
+      "acts": [
+        {
+          "name": "Batad rice terraces trek",
+          "cost": 800
+        },
+        {
+          "name": "Local guide",
+          "cost": 500
+        },
+        {
+          "name": "Tappiya Falls",
+          "cost": 300
+        }
+      ]
+    }
+  ],
+  "festivals": [
+    {
+      "name": "Sinulog",
+      "where": "Cebu City",
+      "when": "3rd Sunday of January",
+      "about": "Street dancing to honor the Santo Nino.",
+      "month": 1
+    },
+    {
+      "name": "Ati-Atihan",
+      "where": "Kalibo, Aklan",
+      "when": "January",
+      "about": "Costumes, drums and face paint.",
+      "month": 1
+    },
+    {
+      "name": "Pahiyas",
+      "where": "Lucban, Quezon",
+      "when": "May 15",
+      "about": "Houses decorated with colorful rice wafers.",
+      "month": 5
+    },
+    {
+      "name": "Kadayawan",
+      "where": "Davao City",
+      "when": "Third week of August",
+      "month": 8,
+      "about": "Thanksgiving for the harvest with parades and flowers."
+    },
+    {
+      "name": "MassKara",
+      "where": "Bacolod",
+      "when": "October",
+      "month": 10,
+      "about": "Smiling masks and street dancing."
+    },
+    {
+      "name": "Panagbenga",
+      "where": "Baguio",
+      "when": "February",
+      "month": 2,
+      "about": "A month-long flower festival."
+    }
+  ],
+  "foods": [
+    {
+      "name": "Adobo",
+      "region": "Everywhere",
+      "about": "Chicken or pork cooked in vinegar and soy sauce.",
+      "price": 150,
+      "type": "main"
+    },
+    {
+      "name": "Sinigang",
+      "region": "Everywhere",
+      "about": "Sour tamarind soup.",
+      "price": 180,
+      "type": "soup"
+    },
+    {
+      "name": "Lechon",
+      "region": "Cebu",
+      "about": "Roast pig with crispy skin.",
+      "price": 250,
+      "type": "main"
+    },
+    {
+      "name": "Halo-halo",
+      "region": "Everywhere",
+      "about": "Shaved ice with sweet beans, fruit and ube ice cream.",
+      "price": 120,
+      "type": "sweet"
+    },
+    {
+      "name": "Isaw",
+      "region": "Everywhere",
+      "about": "Grilled chicken intestines on a stick, sold on the street.",
+      "price": 15,
+      "type": "street"
+    },
+    {
+      "name": "Inihaw na bangus",
+      "region": "Luzon",
+      "about": "Grilled milkfish stuffed with tomato and onion.",
+      "price": 200,
+      "type": "grill"
+    }
+  ],
+  "transport": [
+    {
+      "mode": "Jeepney",
+      "key": "jeep",
+      "tip": "Cheap and everywhere. Pass your fare forward and say para to stop."
+    },
+    {
+      "mode": "Tricycle",
+      "key": "trike",
+      "tip": "Good for short rides. Agree on the price first."
+    },
+    {
+      "mode": "Taxi",
+      "key": "taxi",
+      "tip": "Ask for the meter. Use a ride app if you can."
+    },
+    {
+      "mode": "Ferry",
+      "key": "ferry",
+      "tip": "Connects the islands. Book ahead in busy months."
+    }
+  ],
+  "tips": [
+    "Carry cash, many small towns have no ATM.",
+    "Bring a light rain jacket, rain comes fast.",
+    "Agree on the price before you ride.",
+    "Dress modestly when you visit churches.",
+    "Drink bottled or purified water."
+  ],
+  "phrases": [
+    {
+      "fil": "Salamat",
+      "en": "thank you",
+      "cat": "Basics"
+    },
+    {
+      "fil": "Magandang umaga",
+      "en": "good morning",
+      "cat": "Basics"
+    },
+    {
+      "fil": "Opo",
+      "en": "yes (polite)",
+      "cat": "Basics"
+    },
+    {
+      "fil": "Magkano?",
+      "en": "how much?",
+      "cat": "Shopping"
+    },
+    {
+      "fil": "Pwede bang tumawad?",
+      "en": "can you lower the price?",
+      "cat": "Shopping"
+    },
+    {
+      "fil": "Saan ang banyo?",
+      "en": "where is the bathroom?",
+      "cat": "Getting around"
+    },
+    {
+      "fil": "Para po",
+      "en": "stop here, please",
+      "cat": "Getting around"
+    },
+    {
+      "fil": "Masarap!",
+      "en": "delicious!",
+      "cat": "Food"
+    }
+  ],
+  "routes": [
+    {
+      "from": "Manila",
+      "to": "Puerto Princesa",
+      "mode": "Plane",
+      "time": "1h 30m",
+      "price": 3000
+    },
+    {
+      "from": "Cebu City",
+      "to": "Bohol",
+      "mode": "Ferry",
+      "time": "2h",
+      "price": 700
+    },
+    {
+      "from": "Puerto Princesa",
+      "to": "El Nido",
+      "mode": "Van",
+      "time": "5h",
+      "price": 700
+    }
+  ],
+  "scams": [
+    {
+      "title": "Taxi without a meter",
+      "fix": "Ask the driver to use the meter, or book a ride through an app."
+    },
+    {
+      "title": "Overpriced tricycle",
+      "fix": "Agree on the price before you get in."
+    }
+  ],
+  "emergency": [
+    {
+      "label": "National emergency",
+      "num": "911"
+    },
+    {
+      "label": "Philippine Red Cross",
+      "num": "143"
+    }
+  ],
+  "phraseCats": [
+    "Basics",
+    "Shopping",
+    "Getting around",
+    "Food"
+  ]
+}
