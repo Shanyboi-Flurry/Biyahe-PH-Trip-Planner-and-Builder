@@ -4,9 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Commute Guide | Philippines Trip</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/navbar.css">
-  <link rel="stylesheet" href="css/commute-guide.css">
+  
 </head>
 <body>
   <header class="site-header">
@@ -21,20 +19,31 @@
     </nav>
     <button id="themeBtn" type="button">Dark mode</button>
   </header>
-
   <main>
     <h2>Ways to get around</h2>
     <div id="transportList" class="cards"></div>
     <h2>Is this fare fair?</h2>
-    <label>Distance (km) <input id="km" type="number" min="1" value="5"></label>
+    <div class="row">
+      <label>Ride
+        <select id="mode">
+          <option value="jeep">Jeepney</option>
+          <option value="trike">Tricycle</option>
+          <option value="taxi">Taxi</option>
+        </select>
+      </label>
+      <label>Distance (km) <input id="km" type="number" min="1" value="5"></label>
+      <label>Price they asked (optional) <input id="quote" type="number" min="0"></label>
+    </div>
     <p id="fareResult"></p>
-    
+    <h2>Common routes</h2>
+    <div id="routeList" class="cards"></div>
+    <h2>Scam watch</h2>
+    <div id="scamList" class="cards"></div>
+    <!-- TODO (Rhaina): add more routes and a "fare is fair or not" message with colors -->
   </main>
-
   <footer>
     <p>Prices are rough estimates in pesos.</p>
   </footer>
-
   <script src="js/data.js"></script>
   <script src="js/theme.js"></script>
   <script src="js/commute-guide.js"></script>
