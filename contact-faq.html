@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact & FAQ | Philippines Trip</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Philippines Trip Planner</h1>
+    <nav class="navbar">
+        <a href="destinations.html">Destinations</a>
+        <a href="budget-planner.html">Budget Planner</a>
+        <a href="food-festivals.html">Food & Festivals</a>
+        <a href="commute-guide.html">Commute Guide</a>
+        <a href="tips-phrases.html">Tips & Phrases</a>
+        <a href="contact-faq.html" class="active">Contact & FAQ</a>
+    </nav>
+    <button id="themeBtn" type="button">Dark mode</button>
+  </header>
+
+  <main>
+    <h2>FAQ</h2>
+    <label>Search the questions <input id="faqSearch" type="text" placeholder="visa, money, SIM"></label>
+    <div id="faqList">
+      <details>
+        <summary>Do I need a visa?</summary>
+        <p>It depends on your passport. Check the official immigration website before you book.</p>
+      </details>
+      <details>
+        <summary>What currency is used?</summary>
+        <p>Philippine pesos (PHP). Bring cash for small towns.</p>
+      </details>
+      <details>
+        <summary>When is the best time to go?</summary>
+        <p>Roughly December to May is drier. June to November is the rainy and typhoon season.</p>
+      </details>
+      <details>
+        <summary>Is it safe to travel?</summary>
+        <p>Most trips are trouble free. Watch your bag in crowds and check your government's travel advice.</p>
+      </details>
+    </div>
+    <p id="faqEmpty" hidden>No question matches that.</p>
+    <!-- TODO (Sean): add more questions and links to the other pages -->
+
+    <h2>Contact us</h2>
+    <form id="contactForm">
+      <label>Name <input id="name" type="text"></label>
+      <label>Email <input id="email" type="email"></label>
+      <label>Topic
+        <select id="topic">
+          <option>Question about a place</option>
+          <option>Budget or prices</option>
+          <option>Report a mistake</option>
+          <option>Other</option>
+        </select>
+      </label>
+      <label>Message <textarea id="message" rows="5"></textarea></label>
+      <button type="submit">Send</button>
+      <p id="formMsg"></p>
+    </form>
+  </main>
+
+  <footer>
+    <p>Prices are rough estimates in pesos.</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/contact-faq.js"></script>
+</body>
+</html>
