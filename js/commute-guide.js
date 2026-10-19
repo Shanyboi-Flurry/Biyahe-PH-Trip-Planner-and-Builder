@@ -17,3 +17,22 @@ function showFestivals() {
       <p>${f.about}</p>
     </article>`).join("") || "<p>No festival listed for this month.</p>";
 }
+
+function showFoods() {
+  const list = foods.filter((f) => foodType.value === "all" || f.type === foodType.value);
+  document.getElementById("foodList").innerHTML = list.map((f) => `
+    <article class="card">
+      <h3>${f.name}</h3>
+      <p class="muted">${f.region}</p>
+      <p>${f.about}</p>
+      <p>Usual price: ${peso(f.price)}</p>
+    </article>`).join("") || "<p>Nothing matches.</p>";
+}
+monthSelect.addEventListener("change", showFestivals);
+foodType.addEventListener("change", showFoods);
+loadData().then((data) => {
+  festivals = data.festivals;
+  foods = data.foods;
+  showFestivals();
+  showFoods();
+});
