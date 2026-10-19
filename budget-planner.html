@@ -5,9 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Budget Planner | Philippines Trip</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/navbar.css">
-  <link rel="stylesheet" href="css/budget-planner.css">
 </head>
+
 <body>
   <header class="site-header">
     <h1>Philippines Trip Planner</h1>
@@ -24,20 +23,30 @@
 
   <main>
     <h2>Budget Planner</h2>
-    <p>Pick a place, the number of days and travelers.</p>
-    <form id="budgetForm">
-      <label>Place <select id="place"></select></label>
-      <label>Days <input id="days" type="number" min="1" value="3"></label>
+    <p>Places you added on the Destinations page show up here.</p>
+    <div class="row">
       <label>Travelers <input id="people" type="number" min="1" value="2"></label>
-      <button type="submit">Compute</button>
+      <label>Buffer (%) <input id="buffer" type="number" min="0" max="50" value="10"></label>
+    </div>
+    <div id="tripList"></div>
+    <p id="empty" hidden>Nothing here yet. Go to <a href="destinations.html">Destinations</a> and press "Add to trip".</p>
+    <h2>Extra costs</h2>
+    <form id="extraForm" class="row">
+      <label>Item <input id="extraName" type="text" placeholder="SIM card" required></label>
+      <label>Amount (pesos) <input id="extraAmt" type="number" min="0" required></label>
+      <button type="submit">Add</button>
     </form>
-    <p id="total"></p>
+    <ul id="extraList"></ul>
+    <h2>Total</h2>
+    <div id="summary" class="card"></div>
+  </main>
+
   <footer>
     <p>Prices are rough estimates in pesos.</p>
   </footer>
-
   <script src="js/data.js"></script>
   <script src="js/theme.js"></script>
   <script src="js/budget-planner.js"></script>
+  
 </body>
 </html>
