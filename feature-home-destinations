@@ -5,9 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Destinations | Philippines Trip</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/navbar.css">
-  <link rel="stylesheet" href="css/destinations.css">
 </head>
+
 <body>
   <header class="site-header">
     <h1>Philippines Trip Planner</h1>
@@ -21,13 +20,22 @@
     </nav>
     <button id="themeBtn" type="button">Dark mode</button>
   </header>
-
   <main>
     <h2>Destinations</h2>
     <p>Find a place to visit.</p>
-    <input id="search" type="text" placeholder="Search a place">
-   
+    <div class="row">
+      <label>Search <input id="search" type="text" placeholder="Search a place"></label>
+      <label>Region
+        <select id="region">
+          <option value="all">All regions</option>
+          <option>Luzon</option><option>Visayas</option><option>Mindanao</option>
+        </select>
+      </label>
+    </div>
+    <div id="tagChips" class="row"></div>
+    <p id="count" class="muted"></p>
     <div id="placeList" class="cards"></div>
+
   </main>
 
   <footer>
@@ -37,5 +45,6 @@
   <script src="js/data.js"></script>
   <script src="js/theme.js"></script>
   <script src="js/destinations.js"></script>
+
 </body>
 </html>
