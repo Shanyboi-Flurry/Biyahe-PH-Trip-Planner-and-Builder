@@ -4,9 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Food & Festivals | Philippines Trip</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/navbar.css">
-  <link rel="stylesheet" href="css/food-festivals.css">
+  
 </head>
 <body>
   <header class="site-header">
@@ -21,19 +19,27 @@
     </nav>
     <button id="themeBtn" type="button">Dark mode</button>
   </header>
-
   <main>
     <h2>Festivals</h2>
+    <label>Month <select id="monthSelect"></select></label>
     <div id="festivalList" class="cards"></div>
     <h2>Food to try</h2>
+    <label>Type
+      <select id="foodType">
+        <option value="all">All types</option>
+        <option value="main">Main dishes</option>
+        <option value="grill">Grilled (inihaw)</option>
+        <option value="street">Street food</option>
+        <option value="soup">Soups</option>
+        <option value="sweet">Sweets</option>
+      </select>
+    </label>
     <div id="foodList" class="cards"></div>
-    <!-- TODO (Rhaina): add a month filter for festivals and a region filter for food -->
+  
   </main>
-
   <footer>
     <p>Prices are rough estimates in pesos.</p>
   </footer>
-
   <script src="js/data.js"></script>
   <script src="js/theme.js"></script>
   <script src="js/food-festivals.js"></script>
