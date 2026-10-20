@@ -2433,7 +2433,8 @@
         40
       ],
       "about": "A boiled duck egg with a partly developed embryo, sold by street vendors at night. A famous food challenge.",
-      "type": "street"
+      "type": "street",
+      "img": "Balut-habhab.jpg"
     },
     {
       "name": "Chicken inasal",
@@ -2445,8 +2446,7 @@
         250
       ],
       "about": "Chicken marinated in calamansi, lemongrass and annatto oil, grilled over charcoal. Eaten with garlic rice.",
-      "type": "grill",
-      "img": "Balut-habhab.jpg"
+      "type": "grill"
     },
     {
       "name": "Bicol Express",
@@ -3072,7 +3072,8 @@
       "food": "Fresh lanzones and pastel",
       "wiki": "Lanzones_Festival",
       "alt": "Camiguin",
-      "emoji": "🍈"
+      "emoji": "🍈",
+      "img": "lanzones-festival.jpg"
     },
     {
       "name": "Zamboanga Hermosa Festival",
@@ -3083,7 +3084,8 @@
       "food": "Satti, curacha and pastil",
       "wiki": "Zamboanga_Hermosa_Festival",
       "alt": "Zamboanga_City",
-      "emoji": "⛵"
+      "emoji": "⛵",
+      "img": "zamboanga-festival.jpg"
     },
     {
       "name": "Higantes Festival",
