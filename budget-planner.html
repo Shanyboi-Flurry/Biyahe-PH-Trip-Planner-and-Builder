@@ -3,50 +3,120 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Budget Planner | Philippines Trip</title>
+  <title>Budget planner | Plan Your Philippines Trip</title>
+  <meta name="description" content="Tick the places you want to visit, edit any price and see your trip total in your own currency.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%8C%B4%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Young+Serif&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <header class="site-header">
-    <h1>Philippines Trip Planner</h1>
-    <nav class="navbar">
-        <a href="destinations.html">Destinations</a>
-        <a href="budget-planner.html" class="active">Budget Planner</a>
-        <a href="food-festivals.html">Food & Festivals</a>
-        <a href="commute-guide.html">Commute Guide</a>
-        <a href="tips-phrases.html">Tips & Phrases</a>
-        <a href="contact-faq.html">Contact & FAQ</a>
-    </nav>
-    <button id="themeBtn" type="button">Dark mode</button>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <!-- Underwater reef behind the whole page. Put your clip at video/reef.mp4 -->
+  <div class="reef-bg" aria-hidden="true">
+    <video id="reefVideo" muted loop playsinline preload="auto"></video>
+    <div class="rays"></div>
+    <div class="caustics"></div>
+    <div class="reef-shade"></div>
+  </div>
+  <div id="bubbles" class="bubbles" aria-hidden="true"></div>
+
+  <div class="navwrap">
+    <div class="navmenu" id="navMenu">
+      <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="tabsNav"><span></span><span></span><span></span></button>
+      <nav id="tabsNav" class="tabs" aria-label="Site pages">
+        <a class="tab" href="index.html"><span class="ti" aria-hidden="true">🧭</span>Plan a trip</a>
+        <a class="tab" href="destinations.html"><span class="ti" aria-hidden="true">🏝️</span>Destinations</a>
+        <a class="tab active" href="budget-planner.html" aria-current="page"><span class="ti" aria-hidden="true">💰</span>Budget planner</a>
+        <a class="tab" href="food-festivals.html"><span class="ti" aria-hidden="true">🎉</span>Festivals and food</a>
+        <a class="tab" href="commute-guide.html"><span class="ti" aria-hidden="true">🛺</span>Getting around</a>
+        <a class="tab" href="tips-phrases.html"><span class="ti" aria-hidden="true">🛟</span>Safety and phrases</a>
+        <a class="tab" href="contact-faq.html"><span class="ti" aria-hidden="true">💬</span>Contact and FAQ</a>
+      </nav>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-stage compact">
+      <div class="hero-bg" aria-hidden="true">
+        <video id="heroVideo" muted playsinline preload="auto"></video>
+        <div id="heroSlides"></div>
+        <div class="shade"></div>
+      </div>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>Budget <span class="flow">planner</span></h1>
+        <p class="lede">Tick the places you want to visit, change any price, and see your total in your own currency.</p>
+      </div>
+        <div class="cur-box">
+          <label for="cur">I'm travelling from</label>
+          <select id="cur" aria-describedby="curNote"></select>
+          <p id="curNote" class="cur-note">Prices are shown in pesos and in your currency.</p>
+        </div>
+    </div>
+      <div class="place-label" aria-hidden="true">
+        <strong id="plName" class="pl-name"></strong>
+        <span id="plRegion" class="pl-region"></span>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <h2>Budget Planner</h2>
-    <p>Places you added on the Destinations page show up here.</p>
-    <div class="row">
-      <label>Travelers <input id="people" type="number" min="1" value="2"></label>
-      <label>Buffer (%) <input id="buffer" type="number" min="0" max="50" value="10"></label>
-    </div>
-    <div id="tripList"></div>
-    <p id="empty" hidden>Nothing here yet. Go to <a href="destinations.html">Destinations</a> and press "Add to trip".</p>
-    <h2>Extra costs</h2>
-    <form id="extraForm" class="row">
-      <label>Item <input id="extraName" type="text" placeholder="SIM card" required></label>
-      <label>Amount (pesos) <input id="extraAmt" type="number" min="0" required></label>
-      <button type="submit">Add</button>
-    </form>
-    <ul id="extraList"></ul>
-    <h2>Total</h2>
-    <div id="summary" class="card"></div>
+  <main id="main" tabindex="-1">
+    <p id="loadError" class="error" hidden>Could not load data.json. Open this folder with a local server instead of double-clicking the file. In VS Code, install "Live Server" and choose "Open with Live Server".</p>
+
+    <section id="budget" class="panel">
+      <div class="budget-layout">
+        <div class="budget-main">
+          <div class="form row">
+            <label>Travelers <input id="bPax" type="number" min="1" max="12" value="2"></label>
+            <label>Budget style
+              <select id="bLevel">
+                <option value="budget">Budget</option>
+                <option value="mid" selected>Mid-range</option>
+                <option value="comfort">Comfort</option>
+              </select>
+            </label>
+            <label>Buffer for surprises (%) <input id="bBuffer" type="number" min="0" max="50" value="10"></label>
+          </div>
+          <p class="hint">Tick the places you want to visit. Open a place to choose activities. Every price is in pesos and per person, and you can edit any of them.</p>
+          <div id="bPlaces"></div>
+
+          <h2>Other costs</h2>
+          <div class="card">
+            <label class="inline-input">Cost per transfer between places (per person)
+              <input id="bTransfer" type="number" min="0" step="50">
+            </label>
+            <p class="meta" id="bTransferNote"></p>
+            <h3>Extra items (total for the group)</h3>
+            <div id="bExtras"></div>
+            <form id="extraForm" class="extra-form">
+              <input id="exName" type="text" placeholder="Item, for example SIM card" aria-label="Extra item name" required>
+              <input id="exAmt" type="number" min="0" step="50" placeholder="Pesos" aria-label="Amount in pesos" required>
+              <button class="ghost" type="submit">Add item</button>
+            </form>
+          </div>
+        </div>
+
+        <aside class="budget-sum" aria-live="polite">
+          <div id="bSummary"></div>
+        </aside>
+      </div>
+    </section>
+
   </main>
 
   <footer>
-    <p>Prices are rough estimates in pesos.</p>
+    <p class="foot-nav"><a href="index.html">Plan a trip</a> &middot; <a href="destinations.html">Destinations</a> &middot; <a href="budget-planner.html">Budget planner</a> &middot; <a href="food-festivals.html">Festivals and food</a> &middot; <a href="commute-guide.html">Getting around</a> &middot; <a href="tips-phrases.html">Safety and phrases</a> &middot; <a href="contact-faq.html">Contact and FAQ</a></p>
+    <p>Costs are rough estimates and exclude international flights. Check current prices before you book.</p>
+    <p>Weather by Open-Meteo. Exchange rates by Frankfurter, so they need an internet connection. Photos from Wikipedia and Wikimedia Commons.</p>
   </footer>
+
+  <div class="bg-ui">
+    <button id="bgToggle" class="bg-toggle" type="button" aria-pressed="false">Pause motion</button>
+  </div>
   <script src="js/data.js"></script>
   <script src="js/theme.js"></script>
   <script src="js/budget-planner.js"></script>
-  
 </body>
 </html>
