@@ -2471,7 +2471,8 @@
         100
       ],
       "about": "A crisp orange shell filled with grated papaya, egg and longganisa. Eat it hot from the stall at Plaza Burgos.",
-      "type": "street"
+      "type": "street",
+      "img": "vigan-habhab.jpg"
     },
     {
       "name": "Pancit habhab",
@@ -2496,7 +2497,8 @@
         450
       ],
       "about": "Oxtail and vegetables in a thick peanut sauce, served with bagoong (shrimp paste) on the side.",
-      "type": "main"
+      "type": "main",
+      "img": "Karekare-habhab.jpg"
     },
     {
       "name": "Silog (tapsilog)",
@@ -2508,7 +2510,8 @@
         160
       ],
       "about": "Garlic fried rice and a fried egg with beef tapa, sausage or fish. The standard Filipino breakfast.",
-      "type": "main"
+      "type": "main",
+      "img": "tapsi-habhab.jpg"
     },
     {
       "name": "Taho",
@@ -2617,7 +2620,8 @@
         150
       ],
       "about": "Small crisp spring rolls of minced pork. A party favorite.",
-      "type": "street"
+      "type": "street",
+      "img": "lumpiangshanghai-habhab.jpg"
     },
     {
       "name": "Tinola",
@@ -2641,7 +2645,8 @@
         650
       ],
       "about": "Slow-cooked beef shank and bone marrow soup. A cold-weather favorite in Tagaytay.",
-      "type": "soup"
+      "type": "soup",
+      "img": "bulalo-habhab.jpg"
     },
     {
       "name": "La Paz batchoy",
@@ -2653,7 +2658,8 @@
         160
       ],
       "about": "Noodle soup with pork innards, crushed chicharon and egg. Born in La Paz market, Iloilo.",
-      "type": "soup"
+      "type": "soup",
+      "img": "batchoy-habhab.jpg"
     },
     {
       "name": "Pancit Malabon",
@@ -2665,7 +2671,8 @@
         220
       ],
       "about": "Thick rice noodles in a rich orange seafood sauce with shrimp and egg.",
-      "type": "main"
+      "type": "main",
+      "img": "pancitmalabon-habhab.jpg"
     },
     {
       "name": "Pinakbet",
@@ -2677,7 +2684,8 @@
         180
       ],
       "about": "Ilocano vegetable stew with squash, okra and eggplant, flavored with bagoong.",
-      "type": "main"
+      "type": "main",
+      "img": "pakbet-habhab.jpg"
     },
     {
       "name": "Laing",
@@ -2689,7 +2697,8 @@
         180
       ],
       "about": "Dried taro leaves slow-cooked in spicy coconut milk.",
-      "type": "main"
+      "type": "main",
+      "img": "laing-habhab.jpg"
     },
     {
       "name": "Pastil",
@@ -2713,7 +2722,8 @@
         150
       ],
       "about": "Grilled skewers with a sweet, spicy sauce, served with puso rice. A Zamboanga breakfast.",
-      "type": "grill"
+      "type": "grill",
+      "img": "satti-habhab.jpg"
     },
     {
       "name": "Piaya",
@@ -2725,7 +2735,8 @@
         100
       ],
       "about": "Flat, crisp flatbread filled with muscovado sugar. A Bacolod souvenir.",
-      "type": "sweet"
+      "type": "sweet",
+      "img": "piaya-habhab.jpg"
     },
     {
       "name": "Sans Rival",
@@ -2737,7 +2748,9 @@
         200
       ],
       "about": "Layered cashew meringue and buttercream cake, sold in Dumaguete.",
-      "type": "sweet"
+      "type": "sweet",
+      "img": "sansrival-habhab.jpg"
+
     },
     {
       "name": "Bibingka",
@@ -2749,7 +2762,8 @@
         120
       ],
       "about": "Rice cake cooked in banana leaf with coals above and below. Common at Christmas time.",
-      "type": "sweet"
+      "type": "sweet",
+      "img": "bibingka-habhab.jpg"
     },
     {
       "name": "Puto bumbong",
@@ -2761,7 +2775,8 @@
         100
       ],
       "about": "Purple sticky rice steamed in bamboo, with butter, coconut and sugar. A Christmas dawn treat.",
-      "type": "sweet"
+      "type": "sweet",
+      "img": "putobumbong-habhab.jpg"
     },
     {
       "name": "Ube halaya",
@@ -2773,7 +2788,8 @@
         250
       ],
       "about": "Sweet purple yam jam. Found in cakes, ice cream and Baguio and Bohol souvenir stores.",
-      "type": "sweet"
+      "type": "sweet",
+      "img": "ubehalaya-habhab.jpg"
     }
   ],
   "festivals": [
