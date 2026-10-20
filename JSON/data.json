@@ -2444,7 +2444,8 @@
         250
       ],
       "about": "Chicken marinated in calamansi, lemongrass and annatto oil, grilled over charcoal. Eaten with garlic rice.",
-      "type": "grill"
+      "type": "grill",
+      "img": "Balut-habhab.jpg"
     },
     {
       "name": "Bicol Express",
@@ -2456,7 +2457,8 @@
         250
       ],
       "about": "Pork in coconut milk with long green chilis and shrimp paste. The spiciest dish on this list.",
-      "type": "main"
+      "type": "main",
+      "img": "Bicolexpress-habhab.jpg"
     },
     {
       "name": "Vigan empanada",
@@ -2565,7 +2567,8 @@
         300
       ],
       "about": "Milkfish stuffed with tomato and onion, then grilled. Pangasinan is famous for it.",
-      "type": "grill"
+      "type": "grill",
+      "img": "Inihaw-bangus-habhab.jpg"
     },
     {
       "name": "Isaw",
