@@ -3,48 +3,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Destinations | Philippines Trip</title>
+  <title>Destinations | Plan Your Philippines Trip</title>
+  <meta name="description" content="Explore Philippine destinations on cards or a map. Photos, things to do, local food and weather for each place.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%8C%B4%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Young+Serif&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <header class="site-header">
-    <h1>Philippines Trip Planner</h1>
-    <nav class="navbar">
-        <a href="destinations.html" class="active">Destinations</a>
-        <a href="budget-planner.html">Budget Planner</a>
-        <a href="food-festivals.html">Food & Festivals</a>
-        <a href="commute-guide.html">Commute Guide</a>
-        <a href="tips-phrases.html">Tips & Phrases</a>
-        <a href="contact-faq.html">Contact & FAQ</a>
-    </nav>
-    <button id="themeBtn" type="button">Dark mode</button>
-  </header>
-  <main>
-    <h2>Destinations</h2>
-    <p>Find a place to visit.</p>
-    <div class="row">
-      <label>Search <input id="search" type="text" placeholder="Search a place"></label>
-      <label>Region
-        <select id="region">
-          <option value="all">All regions</option>
-          <option>Luzon</option><option>Visayas</option><option>Mindanao</option>
-        </select>
-      </label>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <!-- Underwater reef behind the whole page. Put your clip at video/reef.mp4 -->
+  <div class="reef-bg" aria-hidden="true">
+    <video id="reefVideo" muted loop playsinline preload="auto"></video>
+    <div class="rays"></div>
+    <div class="caustics"></div>
+    <div class="reef-shade"></div>
+  </div>
+  <div id="bubbles" class="bubbles" aria-hidden="true"></div>
+
+  <div class="navwrap">
+    <div class="navmenu" id="navMenu">
+      <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="tabsNav"><span></span><span></span><span></span></button>
+      <nav id="tabsNav" class="tabs" aria-label="Site pages">
+        <a class="tab" href="index.html"><span class="ti" aria-hidden="true">🧭</span>Plan a trip</a>
+        <a class="tab active" href="destinations.html" aria-current="page"><span class="ti" aria-hidden="true">🏝️</span>Destinations</a>
+        <a class="tab" href="budget-planner.html"><span class="ti" aria-hidden="true">💰</span>Budget planner</a>
+        <a class="tab" href="food-festivals.html"><span class="ti" aria-hidden="true">🎉</span>Festivals and food</a>
+        <a class="tab" href="commute-guide.html"><span class="ti" aria-hidden="true">🛺</span>Getting around</a>
+        <a class="tab" href="tips-phrases.html"><span class="ti" aria-hidden="true">🛟</span>Safety and phrases</a>
+        <a class="tab" href="contact-faq.html"><span class="ti" aria-hidden="true">💬</span>Contact and FAQ</a>
+      </nav>
     </div>
-    <div id="tagChips" class="row"></div>
-    <p id="count" class="muted"></p>
-    <div id="placeList" class="cards"></div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-stage compact">
+      <div class="hero-bg" aria-hidden="true">
+        <video id="heroVideo" muted playsinline preload="auto"></video>
+        <div id="heroSlides"></div>
+        <div class="shade"></div>
+      </div>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>Explore the <span class="flow">Philippines</span></h1>
+        <p class="lede">Beaches, mountains, cities and islands. Click a place for photos, things to do and local food.</p>
+      </div>
+        <div class="cur-box">
+          <label for="cur">I'm travelling from</label>
+          <select id="cur" aria-describedby="curNote"></select>
+          <p id="curNote" class="cur-note">Prices are shown in pesos and in your currency.</p>
+        </div>
+    </div>
+      <div class="place-label" aria-hidden="true">
+        <strong id="plName" class="pl-name"></strong>
+        <span id="plRegion" class="pl-region"></span>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <p id="loadError" class="error" hidden>Could not load data.json. Open this folder with a local server instead of double-clicking the file. In VS Code, install "Live Server" and choose "Open with Live Server".</p>
+
+    <section id="explore" class="panel">
+      <div class="form row">
+        <label>Interest <select id="exTag"></select></label>
+        <label>Region <select id="exGroup"><option value="all">All regions</option><option>Luzon</option><option>Visayas</option><option>Mindanao</option></select></label>
+      </div>
+      <div class="seg" role="group" aria-label="View">
+        <button type="button" data-v="grid" aria-pressed="true">Cards</button>
+        <button type="button" data-v="map" aria-pressed="false">Map</button>
+      </div>
+      <div id="exMapWrap" hidden>
+        <label class="inline" id="mapRouteWrap"><input id="mapRoute" type="checkbox"> Show the route of my itinerary</label>
+        <div id="exMap" class="map" role="region" aria-label="Map of places in the Philippines"></div>
+        <p id="mapNote" class="meta" aria-live="polite"></p>
+        <ul class="map-legend" aria-label="Pin colours by region">
+          <li><i style="background:#d6336c"></i>Luzon</li>
+          <li><i style="background:#f08c00"></i>Visayas</li>
+          <li><i style="background:#7048e8"></i>Mindanao</li>
+        </ul>
+      </div>
+      <div id="exGrid" class="grid photo-grid"></div>
+    </section>
 
   </main>
 
   <footer>
-    <p>Prices are rough estimates in pesos.</p>
+    <p class="foot-nav"><a href="index.html">Plan a trip</a> &middot; <a href="destinations.html">Destinations</a> &middot; <a href="budget-planner.html">Budget planner</a> &middot; <a href="food-festivals.html">Festivals and food</a> &middot; <a href="commute-guide.html">Getting around</a> &middot; <a href="tips-phrases.html">Safety and phrases</a> &middot; <a href="contact-faq.html">Contact and FAQ</a></p>
+    <p>Costs are rough estimates and exclude international flights. Check current prices before you book.</p>
+    <p>Weather by Open-Meteo. Exchange rates by Frankfurter, so they need an internet connection. Photos from Wikipedia and Wikimedia Commons.</p>
   </footer>
 
+  <!-- Photo dialog: opens when a card is clicked -->
+  <dialog id="placeDlg" class="place-dlg" aria-labelledby="pdTitle"></dialog>
+
+
+  <div class="bg-ui">
+    <button id="bgToggle" class="bg-toggle" type="button" aria-pressed="false">Pause motion</button>
+  </div>
   <script src="js/data.js"></script>
   <script src="js/theme.js"></script>
   <script src="js/destinations.js"></script>
-
 </body>
 </html>
