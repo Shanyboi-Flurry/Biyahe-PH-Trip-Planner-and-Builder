@@ -1,301 +1,3381 @@
 {
+  "tags": [
+    "beach",
+    "food",
+    "history",
+    "adventure",
+    "nature"
+  ],
+  "transfer": {
+    "budget": 900,
+    "mid": 1800,
+    "comfort": 3500
+  },
+  "currencies": [
+    {
+      "c": "PHP",
+      "n": "Philippine peso",
+      "ctry": "Philippines (no conversion)",
+      "r": 1
+    },
+    {
+      "c": "USD",
+      "n": "US dollar",
+      "ctry": "United States",
+      "r": 0.0172
+    },
+    {
+      "c": "EUR",
+      "n": "Euro",
+      "ctry": "Germany, France, Italy, Spain and other euro countries",
+      "r": 0.0148
+    },
+    {
+      "c": "GBP",
+      "n": "British pound",
+      "ctry": "United Kingdom",
+      "r": 0.0128
+    },
+    {
+      "c": "AUD",
+      "n": "Australian dollar",
+      "ctry": "Australia",
+      "r": 0.0265
+    },
+    {
+      "c": "CAD",
+      "n": "Canadian dollar",
+      "ctry": "Canada",
+      "r": 0.0238
+    },
+    {
+      "c": "NZD",
+      "n": "New Zealand dollar",
+      "ctry": "New Zealand",
+      "r": 0.0292
+    },
+    {
+      "c": "JPY",
+      "n": "Japanese yen",
+      "ctry": "Japan",
+      "r": 2.6
+    },
+    {
+      "c": "KRW",
+      "n": "South Korean won",
+      "ctry": "South Korea",
+      "r": 24
+    },
+    {
+      "c": "CNY",
+      "n": "Chinese yuan",
+      "ctry": "China",
+      "r": 0.123
+    },
+    {
+      "c": "HKD",
+      "n": "Hong Kong dollar",
+      "ctry": "Hong Kong",
+      "r": 0.134
+    },
+    {
+      "c": "SGD",
+      "n": "Singapore dollar",
+      "ctry": "Singapore",
+      "r": 0.0225
+    },
+    {
+      "c": "MYR",
+      "n": "Malaysian ringgit",
+      "ctry": "Malaysia",
+      "r": 0.073
+    },
+    {
+      "c": "THB",
+      "n": "Thai baht",
+      "ctry": "Thailand",
+      "r": 0.56
+    },
+    {
+      "c": "IDR",
+      "n": "Indonesian rupiah",
+      "ctry": "Indonesia",
+      "r": 285
+    },
+    {
+      "c": "INR",
+      "n": "Indian rupee",
+      "ctry": "India",
+      "r": 1.45
+    },
+    {
+      "c": "CHF",
+      "n": "Swiss franc",
+      "ctry": "Switzerland",
+      "r": 0.0138
+    },
+    {
+      "c": "SEK",
+      "n": "Swedish krona",
+      "ctry": "Sweden",
+      "r": 0.165
+    },
+    {
+      "c": "NOK",
+      "n": "Norwegian krone",
+      "ctry": "Norway",
+      "r": 0.17
+    },
+    {
+      "c": "DKK",
+      "n": "Danish krone",
+      "ctry": "Denmark",
+      "r": 0.11
+    },
+    {
+      "c": "PLN",
+      "n": "Polish zloty",
+      "ctry": "Poland",
+      "r": 0.063
+    },
+    {
+      "c": "CZK",
+      "n": "Czech koruna",
+      "ctry": "Czechia",
+      "r": 0.36
+    },
+    {
+      "c": "TRY",
+      "n": "Turkish lira",
+      "ctry": "Turkey",
+      "r": 0.72
+    },
+    {
+      "c": "ILS",
+      "n": "Israeli shekel",
+      "ctry": "Israel",
+      "r": 0.058
+    },
+    {
+      "c": "ZAR",
+      "n": "South African rand",
+      "ctry": "South Africa",
+      "r": 0.3
+    },
+    {
+      "c": "BRL",
+      "n": "Brazilian real",
+      "ctry": "Brazil",
+      "r": 0.095
+    },
+    {
+      "c": "MXN",
+      "n": "Mexican peso",
+      "ctry": "Mexico",
+      "r": 0.33
+    }
+  ],
   "destinations": [
     {
-      "name": "El Nido, Palawan",
-      "region": "Luzon",
-      "blurb": "Limestone cliffs, lagoons and island hopping.",
-      "costPerDay": 2000,
       "id": "elnido",
+      "name": "El Nido, Palawan",
+      "group": "Luzon",
+      "lat": 11.18,
+      "lon": 119.39,
+      "emoji": "🏝️",
+      "wiki": "El_Nido,_Palawan",
+      "tags": [
+        "beach",
+        "nature",
+        "adventure"
+      ],
+      "hidden": false,
+      "best": "Nov-May",
+      "cost": {
+        "budget": 1500,
+        "mid": 3200,
+        "comfort": 7200
+      },
+      "eat": "Fresh grilled seafood",
+      "blurb": "Limestone cliffs and clear lagoons, best seen on island-hopping tours.",
+      "gateway": "Fly to Puerto Princesa, then a 5-6 hour shared van. Small planes also reach El Nido airport.",
+      "acts": [
+        {
+          "n": "Island hopping Tour A",
+          "c": 1400,
+          "wiki": "El_Nido,_Palawan"
+        },
+        {
+          "n": "Island hopping Tour C",
+          "c": 1500
+        },
+        {
+          "n": "Kayak in the Small Lagoon",
+          "c": 500,
+          "wiki": "El_Nido,_Palawan"
+        },
+        {
+          "n": "Sunset at Nacpan Beach (tricycle)",
+          "c": 800,
+          "wiki": "Nacpan_Beach"
+        },
+        {
+          "n": "Taraw Cliff via ferrata",
+          "c": 1800
+        }
+      ],
+      "foodNames": [
+        "Kinilaw",
+        "Sinigang"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Fresh seafood at the market",
+          "d": "Pick your fish, crab or squid and have a nearby grill cook it by weight.",
+          "p": [
+            300,
+            900
+          ],
+          "e": "🦀"
+        },
+        {
+          "t": "special",
+          "n": "Kinilaw na tanigue",
+          "d": "Raw Spanish mackerel cured in vinegar and calamansi, a Palawan staple.",
+          "p": [
+            150,
+            350
+          ],
+          "e": "🐟"
+        },
+        {
+          "t": "grill",
+          "n": "Inihaw na isda",
+          "d": "Whole fish (tilapia, bangus, lapu-lapu) grilled over charcoal, eaten with rice and sawsawan.",
+          "p": [
+            120,
+            350
+          ],
+          "e": "🐟"
+        },
+        {
+          "t": "grill",
+          "n": "Grilled squid (pusit)",
+          "d": "Stuffed or plain squid on the charcoal grill.",
+          "p": [
+            120,
+            300
+          ],
+          "e": "🦑"
+        },
+        {
+          "t": "street",
+          "n": "Isaw",
+          "d": "Grilled chicken intestine on a stick, dipped in spicy vinegar. Sold per stick by the roadside.",
+          "p": [
+            8,
+            15
+          ],
+          "e": "🍢"
+        },
+        {
+          "t": "street",
+          "n": "Fishball and kikiam",
+          "d": "Deep-fried fish balls with sweet, sour or spicy sauce, from a street cart.",
+          "p": [
+            20,
+            50
+          ],
+          "e": "🍡"
+        },
+        {
+          "t": "soup",
+          "n": "Sinigang na hipon / fish soup",
+          "d": "Sour soup with the day's catch, found in most beach towns.",
+          "p": [
+            120,
+            300
+          ],
+          "e": "🥣"
+        },
+        {
+          "t": "soup",
+          "n": "Tinola",
+          "d": "Light chicken soup with ginger, green papaya and chili leaves.",
+          "p": [
+            90,
+            200
+          ],
+          "e": "🍲"
+        }
+      ]
+    },
+    {
+      "id": "coron",
+      "name": "Coron, Palawan",
+      "group": "Luzon",
+      "lat": 12.0,
+      "lon": 120.2,
+      "emoji": "🤿",
+      "wiki": "Coron,_Palawan",
+      "tags": [
+        "beach",
+        "adventure",
+        "nature"
+      ],
+      "hidden": false,
+      "best": "Nov-May",
+      "cost": {
+        "budget": 1500,
+        "mid": 3200,
+        "comfort": 7200
+      },
+      "eat": "Calamansi muffins and seafood",
+      "blurb": "Lakes, shipwreck dives and hot springs among sharp limestone islands.",
+      "gateway": "Direct flights to Busuanga (Francisco Reyes) airport, then a 45-minute van to town.",
+      "acts": [
+        {
+          "n": "Island hopping (Kayangan Lake, Twin Lagoon)",
+          "c": 1500,
+          "wiki": "Kayangan_Lake"
+        },
+        {
+          "n": "Shipwreck snorkeling tour",
+          "c": 1800
+        },
+        {
+          "n": "Maquinit Hot Spring",
+          "c": 300
+        },
+        {
+          "n": "Mt. Tapyas sunset climb",
+          "c": 50,
+          "wiki": "Coron,_Palawan"
+        }
+      ],
+      "foodNames": [
+        "Kinilaw",
+        "Halo-halo"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Calamansi muffin",
+          "d": "Famous tangy-sweet muffins from Coron bakeries.",
+          "p": [
+            30,
+            60
+          ],
+          "e": "🧁"
+        },
+        {
+          "t": "special",
+          "n": "Kinilaw and grilled tuna belly",
+          "d": "Fresh from the Coron fish port.",
+          "p": [
+            200,
+            450
+          ],
+          "e": "🐟"
+        },
+        {
+          "t": "grill",
+          "n": "Inihaw na isda",
+          "d": "Whole fish (tilapia, bangus, lapu-lapu) grilled over charcoal, eaten with rice and sawsawan.",
+          "p": [
+            120,
+            350
+          ],
+          "e": "🐟"
+        },
+        {
+          "t": "grill",
+          "n": "Grilled squid",
+          "d": "Charcoal grilled, with soy-calamansi dip.",
+          "p": [
+            120,
+            300
+          ],
+          "e": "🦑"
+        },
+        {
+          "t": "street",
+          "n": "Fishball and kikiam",
+          "d": "Deep-fried fish balls with sweet, sour or spicy sauce, from a street cart.",
+          "p": [
+            20,
+            50
+          ],
+          "e": "🍡"
+        },
+        {
+          "t": "street",
+          "n": "Kwek-kwek",
+          "d": "Orange-battered, deep-fried quail eggs.",
+          "p": [
+            20,
+            50
+          ],
+          "e": "🥚"
+        },
+        {
+          "t": "soup",
+          "n": "Sinigang na hipon / fish soup",
+          "d": "Sour soup with the day's catch, found in most beach towns.",
+          "p": [
+            120,
+            300
+          ],
+          "e": "🥣"
+        },
+        {
+          "t": "soup",
+          "n": "Tinola",
+          "d": "Light chicken soup with ginger, green papaya and chili leaves.",
+          "p": [
+            90,
+            200
+          ],
+          "e": "🍲"
+        }
+      ]
+    },
+    {
+      "id": "puertoprincesa",
+      "name": "Puerto Princesa Underground River",
+      "group": "Luzon",
+      "lat": 10.17,
+      "lon": 118.92,
+      "emoji": "🛶",
+      "wiki": "Puerto_Princesa_Underground_River",
+      "tags": [
+        "nature",
+        "adventure",
+        "food"
+      ],
+      "hidden": false,
+      "best": "Nov-May",
+      "cost": {
+        "budget": 1400,
+        "mid": 3000,
+        "comfort": 6500
+      },
+      "eat": "Tamilok, if you dare, and fresh seafood at Baywalk",
+      "blurb": "A UNESCO-listed river that flows through a cave and out to the sea.",
+      "gateway": "Direct flights from Manila and Cebu. The airport is 15 minutes from the city.",
+      "acts": [
+        {
+          "n": "Underground River tour (permit and boat)",
+          "c": 2200,
+          "wiki": "Puerto_Princesa_Underground_River"
+        },
+        {
+          "n": "Honda Bay island hopping",
+          "c": 1500
+        },
+        {
+          "n": "Firefly watching",
+          "c": 1000
+        }
+      ],
+      "foodNames": [
+        "Kinilaw",
+        "Halo-halo"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Tamilok",
+          "d": "Woodworm eaten raw in vinegar, for the brave.",
+          "p": [
+            100,
+            250
+          ],
+          "e": "🐛"
+        },
+        {
+          "t": "special",
+          "n": "Baywalk seafood grill",
+          "d": "Evening seafood grill stalls by the bay.",
+          "p": [
+            250,
+            700
+          ],
+          "e": "🦐"
+        },
+        {
+          "t": "grill",
+          "n": "Inihaw na pusit and bangus",
+          "d": "Grilled squid and milkfish.",
+          "p": [
+            120,
+            300
+          ],
+          "e": "🦑"
+        },
+        {
+          "t": "street",
+          "n": "Isaw",
+          "d": "Grilled chicken intestine on a stick, dipped in spicy vinegar. Sold per stick by the roadside.",
+          "p": [
+            8,
+            15
+          ],
+          "e": "🍢"
+        },
+        {
+          "t": "street",
+          "n": "Fishball and kikiam",
+          "d": "Deep-fried fish balls with sweet, sour or spicy sauce, from a street cart.",
+          "p": [
+            20,
+            50
+          ],
+          "e": "🍡"
+        },
+        {
+          "t": "street",
+          "n": "Kwek-kwek",
+          "d": "Orange-battered, deep-fried quail eggs.",
+          "p": [
+            20,
+            50
+          ],
+          "e": "🥚"
+        },
+        {
+          "t": "soup",
+          "n": "Sinigang na hipon / fish soup",
+          "d": "Sour soup with the day's catch, found in most beach towns.",
+          "p": [
+            120,
+            300
+          ],
+          "e": "🥣"
+        },
+        {
+          "t": "soup",
+          "n": "Tinola",
+          "d": "Light chicken soup with ginger, green papaya and chili leaves.",
+          "p": [
+            90,
+            200
+          ],
+          "e": "🍲"
+        }
+      ]
+    },
+    {
+      "id": "manila",
+      "name": "Intramuros, Manila",
+      "group": "Luzon",
+      "lat": 14.59,
+      "lon": 120.97,
+      "emoji": "🏛️",
+      "wiki": "Intramuros",
+      "tags": [
+        "history",
+        "food"
+      ],
+      "hidden": false,
+      "best": "Dec-Apr",
+      "cost": {
+        "budget": 1400,
+        "mid": 3200,
+        "comfort": 7500
+      },
+      "eat": "Street food and Binondo dumplings",
+      "blurb": "The walled Spanish-era city, with Fort Santiago and Binondo's food streets nearby.",
+      "gateway": "NAIA airport. Take Grab, or the airport bus, then LRT or MRT for the city.",
+      "acts": [
+        {
+          "n": "Fort Santiago entrance",
+          "c": 75,
+          "wiki": "Fort_Santiago"
+        },
+        {
+          "n": "San Agustin Church museum",
+          "c": 200,
+          "wiki": "San_Agustin_Church_(Manila)"
+        },
+        {
+          "n": "Binondo food crawl (guided)",
+          "c": 1500,
+          "wiki": "Binondo"
+        },
+        {
+          "n": "Casa Manila",
+          "c": 75,
+          "wiki": "Casa_Manila"
+        }
+      ],
+      "foodNames": [
+        "Adobo",
+        "Kare-kare",
+        "Halo-halo"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Binondo dumplings and hopia",
+          "d": "Chinatown's kuchay dumplings, siopao and hopia.",
+          "p": [
+            60,
+            200
+          ],
+          "e": "🥟"
+        },
+        {
+          "t": "special",
+          "n": "Pancit Malabon",
+          "d": "Thick noodles in orange seafood sauce.",
+          "p": [
+            100,
+            220
+          ],
+          "e": "🍜"
+        },
+        {
+          "t": "grill",
+          "n": "Inihaw na liempo",
+          "d": "Charcoal-grilled pork belly, smoky and crisp at the edges.",
+          "p": [
+            100,
+            220
+          ],
+          "e": "🥓"
+        },
+        {
+          "t": "grill",
+          "n": "Barbecue sticks",
+          "d": "Marinated pork barbecue on sticks, sold at street corners.",
+          "p": [
+            15,
+            40
+          ],
+          "e": "🍢"
+        },
+        {
+          "t": "street",
+          "n": "Isaw",
+          "d": "Grilled chicken intestine on a stick, dipped in spicy vinegar. Sold per stick by the roadside.",
+          "p": [
+            8,
+            15
+          ],
+          "e": "🍢"
+        },
+        {
+          "t": "street",
+          "n": "Fishball and kikiam",
+          "d": "Deep-fried fish balls with sweet, sour or spicy sauce, from a street cart.",
+          "p": [
+            20,
+            50
+          ],
+          "e": "🍡"
+        },
+        {
+          "t": "street",
+          "n": "Kwek-kwek",
+          "d": "Orange-battered, deep-fried quail eggs.",
+          "p": [
+            20,
+            50
+          ],
+          "e": "🥚"
+        },
+        {
+          "t": "street",
+          "n": "Taho",
+          "d": "Warm silken tofu, arnibal and sago, sold in the morning.",
+          "p": [
+            15,
+            40
+          ],
+          "e": "🥛"
+        },
+        {
+          "t": "soup",
+          "n": "Lugaw / arroz caldo",
+          "d": "Rice porridge with chicken, ginger and toasted garlic.",
+          "p": [
+            50,
+            120
+          ],
+          "e": "🥣"
+        },
+        {
+          "t": "soup",
+          "n": "Nilaga",
+          "d": "Clear boiled beef or pork soup with cabbage, potatoes and corn.",
+          "p": [
+            100,
+            250
+          ],
+          "e": "🍲"
+        },
+        {
+          "t": "soup",
+          "n": "Sinigang",
+          "d": "Sour tamarind soup with pork, fish or shrimp.",
+          "p": [
+            100,
+            280
+          ],
+          "e": "🥣"
+        }
+      ]
+    },
+    {
+      "id": "vigan",
+      "name": "Vigan, Ilocos Sur",
+      "group": "Luzon",
+      "lat": 17.57,
+      "lon": 120.39,
+      "emoji": "🐎",
+      "wiki": "Vigan",
+      "tags": [
+        "history",
+        "food"
+      ],
+      "hidden": false,
+      "best": "Nov-Apr",
+      "cost": {
+        "budget": 1300,
+        "mid": 2800,
+        "comfort": 6000
+      },
+      "eat": "Empanada, longganisa, bagnet",
+      "blurb": "A UNESCO-listed Spanish colonial town with cobbled streets and kalesa rides.",
+      "gateway": "An 8-10 hour bus from Manila, or fly to Laoag and take a 2-hour bus.",
+      "acts": [
+        {
+          "n": "Kalesa ride on Calle Crisologo",
+          "c": 250,
+          "wiki": "Vigan"
+        },
+        {
+          "n": "Pottery at Pagburnayan",
+          "c": 150
+        },
+        {
+          "n": "Crisologo Museum",
+          "c": 50
+        },
+        {
+          "n": "Guided heritage walk",
+          "c": 600
+        }
+      ],
+      "foodNames": [
+        "Vigan empanada",
+        "Silog (tapsilog)"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Vigan empanada",
+          "d": "Orange crispy shell with longganisa, egg and green papaya.",
+          "p": [
+            30,
+            60
+          ],
+          "e": "🥟"
+        },
+        {
+          "t": "special",
+          "n": "Vigan longganisa and bagnet",
+          "d": "Garlicky sausage and crispy pork belly.",
+          "p": [
+            100,
+            250
+          ],
+          "e": "🥓"
+        },
+        {
+          "t": "special",
+          "n": "Okoy",
+          "d": "Crisp shrimp fritters.",
+          "p": [
+            30,
+            80
+          ],
+          "e": "🍤"
+        },
+        {
+          "t": "street",
+          "n": "Sinanglao",
+          "d": "Beef innards soup, eaten at the market.",
+          "p": [
+            70,
+            150
+          ],
+          "e": "🍲"
+        },
+        {
+          "t": "grill",
+          "n": "Inihaw na liempo",
+          "d": "Charcoal-grilled pork belly.",
+          "p": [
+            100,
+            220
+          ],
+          "e": "🥓"
+        },
+        {
+          "t": "soup",
+          "n": "Pinakbet",
+          "d": "Ilocano vegetable stew with bagoong.",
+          "p": [
+            90,
+            200
+          ],
+          "e": "🍲"
+        },
+        {
+          "t": "soup",
+          "n": "Dinengdeng",
+          "d": "Ilocano vegetable soup with grilled fish.",
+          "p": [
+            80,
+            180
+          ],
+          "e": "🥣"
+        }
+      ]
+    },
+    {
+      "id": "banaue",
+      "name": "Banaue Rice Terraces, Ifugao",
+      "group": "Luzon",
+      "lat": 16.92,
+      "lon": 121.06,
+      "emoji": "🌾",
+      "wiki": "Banaue_Rice_Terraces",
+      "tags": [
+        "nature",
+        "adventure",
+        "history"
+      ],
+      "hidden": false,
+      "best": "Mar-Jun",
+      "cost": {
+        "budget": 1100,
+        "mid": 2500,
+        "comfort": 5200
+      },
+      "eat": "Local rice and etag",
+      "blurb": "Centuries-old terraces carved into the mountains, with trails to Batad village.",
+      "gateway": "An overnight bus from Manila (about 8-9 hours), then a tricycle or jeepney to Batad junction.",
+      "acts": [
+        {
+          "n": "Batad guided trek",
+          "c": 900,
+          "wiki": "Batad"
+        },
+        {
+          "n": "Tricycle to Batad saddle",
+          "c": 500,
+          "wiki": "Batad"
+        },
+        {
+          "n": "Banaue viewpoint and Bocos tour",
+          "c": 500,
+          "wiki": "Banaue_Rice_Terraces"
+        },
+        {
+          "n": "Weaving village visit",
+          "c": 100
+        }
+      ],
+      "foodNames": [
+        "Adobo",
+        "Sinigang"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Tinawon rice",
+          "d": "Heirloom rice grown on the terraces.",
+          "p": [
+            30,
+            80
+          ],
+          "e": "🍚"
+        },
+        {
+          "t": "special",
+          "n": "Etag",
+          "d": "Cured, smoked pork, a Cordillera specialty.",
+          "p": [
+            100,
+            250
+          ],
+          "e": "🥓"
+        },
+        {
+          "t": "special",
+          "n": "Pinikpikan",
+          "d": "Traditional Cordillera chicken dish; ask before ordering.",
+          "p": [
+            200,
+            400
+          ],
+          "e": "🍗"
+        },
+        {
+          "t": "grill",
+          "n": "Inihaw na baboy",
+          "d": "Grilled pork with rice.",
+          "p": [
+            100,
+            220
+          ],
+          "e": "🥓"
+        },
+        {
+          "t": "street",
+          "n": "Camote and local snacks",
+          "d": "Sweet potato and rice cakes from market stalls.",
+          "p": [
+            15,
+            50
+          ],
+          "e": "🍠"
+        },
+        {
+          "t": "soup",
+          "n": "Chicken tinola with sayote",
+          "d": "Warm mountain-style chicken soup.",
+          "p": [
+            90,
+            200
+          ],
+          "e": "🍲"
+        },
+        {
+          "t": "soup",
+          "n": "Nilaga",
+          "d": "Clear boiled beef or pork soup with cabbage, potatoes and corn.",
+          "p": [
+            100,
+            250
+          ],
+          "e": "🍲"
+        }
+      ]
+    },
+    {
+      "id": "pinatubo",
+      "name": "Mt. Pinatubo, Capas",
+      "group": "Luzon",
+      "lat": 15.14,
+      "lon": 120.35,
+      "emoji": "🌋",
+      "wiki": "Mount_Pinatubo",
+      "tags": [
+        "adventure",
+        "nature"
+      ],
+      "hidden": false,
+      "best": "Nov-Apr",
+      "cost": {
+        "budget": 1400,
+        "mid": 2800,
+        "comfort": 5600
+      },
+      "eat": "Pampanga sisig and tocino",
+      "blurb": "A 4x4 ride through volcanic canyons to a crater lake. Close to Angeles and Clark.",
+      "gateway": "About 2 hours by bus from Manila to Angeles or Clark, then book a 4x4 package.",
+      "acts": [
+        {
+          "n": "4x4 ride and trek to the crater lake",
+          "c": 2800,
+          "wiki": "Mount_Pinatubo"
+        },
+        {
+          "n": "Sisig tasting in Angeles",
+          "c": 350
+        },
+        {
+          "n": "Pampanga cooking class",
+          "c": 1500
+        }
+      ],
+      "foodNames": [
+        "Sisig",
+        "Silog (tapsilog)"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Sizzling sisig",
+          "d": "Pampanga's chopped pork, said to have been invented in Angeles.",
+          "p": [
+            150,
+            300
+          ],
+          "e": "🍳"
+        },
+        {
+          "t": "special",
+          "n": "Tocino and longganisa",
+          "d": "Sweet cured pork and Pampanga sausage.",
+          "p": [
+            80,
+            180
+          ],
+          "e": "🥓"
+        },
+        {
+          "t": "special",
+          "n": "Tibok-tibok",
+          "d": "Soft carabao milk pudding.",
+          "p": [
+            20,
+            60
+          ],
+          "e": "🍮"
+        },
+        {
+          "t": "grill",
+          "n": "Inihaw na liempo",
+          "d": "Charcoal-grilled pork belly, smoky and crisp at the edges.",
+          "p": [
+            100,
+            220
+          ],
+          "e": "🥓"
+        },
+        {
+          "t": "street",
+          "n": "Barbecue sticks",
+          "d": "Street grill outside Angeles.",
+          "p": [
+            15,
+            40
+          ],
+          "e": "🍢"
+        },
+        {
+          "t": "street",
+          "n": "Isaw",
+          "d": "Grilled chicken intestine on a stick, dipped in spicy vinegar. Sold per stick by the roadside.",
+          "p": [
+            8,
+            15
+          ],
+          "e": "🍢"
+        },
+        {
+          "t": "street",
+          "n": "Fishball and kikiam",
+          "d": "Deep-fried fish balls with sweet, sour or spicy sauce, from a street cart.",
+          "p": [
+            20,
+            50
+          ],
+          "e": "🍡"
+        },
+        {
+          "t": "soup",
+          "n": "Sinigang na baboy",
+          "d": "Sour pork soup.",
+          "p": [
+            100,
+            250
+          ],
+          "e": "🥣"
+        },
+        {
+          "t": "soup",
+          "n": "Bulalo (Tagaytay style)",
+          "d": "Marrow soup, a common stop on the way back to Manila.",
+          "p": [
+            300,
+            650
+          ],
+          "e": "🍲"
+        }
+      ]
+    },
+    {
+      "id": "legazpi",
+      "name": "Legazpi and Mayon Volcano, Albay",
+      "group": "Luzon",
+      "lat": 13.14,
+      "lon": 123.74,
+      "emoji": "🌋",
+      "wiki": "Mayon_Volcano",
+      "tags": [
+        "nature",
+        "adventure",
+        "food"
+      ],
+      "hidden": false,
+      "best": "Feb-May",
+      "cost": {
+        "budget": 1300,
+        "mid": 2800,
+        "comfort": 5500
+      },
+      "eat": "Bicol Express and pinangat",
+      "blurb": "The near-perfect cone of Mayon Volcano, and the home of spicy Bicolano food.",
+      "gateway": "Direct flights from Manila, or an overnight bus (about 10-12 hours).",
+      "acts": [
+        {
+          "n": "Mayon ATV adventure",
+          "c": 1500,
+          "wiki": "Mayon_Volcano"
+        },
+        {
+          "n": "Cagsawa Ruins entrance",
+          "c": 50,
+          "wiki": "Cagsawa_Ruins"
+        },
+        {
+          "n": "Lignon Hill zipline",
+          "c": 400
+        }
+      ],
+      "foodNames": [
+        "Bicol Express",
+        "Halo-halo"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Bicol Express",
+          "d": "Pork in coconut milk and chili.",
+          "p": [
+            100,
+            220
+          ],
+          "e": "🌶️"
+        },
+        {
+          "t": "special",
+          "n": "Laing",
+          "d": "Taro leaves in spicy coconut milk.",
+          "p": [
+            80,
+            180
+          ],
+          "e": "🥬"
+        },
+        {
+          "t": "special",
+          "n": "Pinangat",
+          "d": "Taro leaves wrapped around fish or meat, cooked in coconut milk.",
+          "p": [
+            50,
+            150
+          ],
+          "e": "🍃"
+        },
+        {
+          "t": "special",
+          "n": "Sili ice cream",
+          "d": "Chili-flavoured ice cream, a Bicol curiosity.",
+          "p": [
+            40,
+            100
+          ],
+          "e": "🍦"
+        },
+        {
+          "t": "grill",
+          "n": "Inihaw na isda",
+          "d": "Grilled fish with spicy sawsawan.",
+          "p": [
+            120,
+            300
+          ],
+          "e": "🐟"
+        },
+        {
+          "t": "street",
+          "n": "Isaw",
+          "d": "Grilled chicken intestine on a stick, dipped in spicy vinegar. Sold per stick by the roadside.",
+          "p": [
+            8,
+            15
+          ],
+          "e": "🍢"
+        },
+        {
+          "t": "street",
+          "n": "Fishball and kikiam",
+          "d": "Deep-fried fish balls with sweet, sour or spicy sauce, from a street cart.",
+          "p": [
+            20,
+            50
+          ],
+          "e": "🍡"
+        },
+        {
+          "t": "street",
+          "n": "Kwek-kwek",
+          "d": "Orange-battered, deep-fried quail eggs.",
+          "p": [
+            20,
+            50
+          ],
+          "e": "🥚"
+        },
+        {
+          "t": "soup",
+          "n": "Sinigang na hipon / fish soup",
+          "d": "Sour soup with the day's catch, found in most beach towns.",
+          "p": [
+            120,
+            300
+          ],
+          "e": "🥣"
+        }
+      ]
+    },
+    {
+      "id": "sagada",
+      "name": "Sagada, Mountain Province",
+      "group": "Luzon",
+      "lat": 17.08,
+      "lon": 120.9,
+      "emoji": "⛰️",
+      "wiki": "Sagada",
+      "tags": [
+        "nature",
+        "adventure",
+        "food"
+      ],
+      "hidden": true,
+      "best": "Nov-May",
+      "cost": {
+        "budget": 1100,
+        "mid": 2400,
+        "comfort": 4800
+      },
+      "eat": "Yoghurt, lemon pie, pinikpikan",
+      "blurb": "Hanging coffins, caves, and sea-of-clouds viewpoints in a cool mountain town.",
+      "gateway": "An overnight bus from Manila to Bontoc (about 12 hours), then a jeepney to Sagada.",
+      "acts": [
+        {
+          "n": "Sumaguing Cave connection (guided)",
+          "c": 600
+        },
+        {
+          "n": "Sunrise at Kiltepan",
+          "c": 300
+        },
+        {
+          "n": "Echo Valley hanging coffins",
+          "c": 150,
+          "wiki": "Sagada"
+        },
+        {
+          "n": "Bomod-ok Falls trek",
+          "c": 700,
+          "wiki": "Sagada"
+        }
+      ],
+      "foodNames": [
+        "Adobo",
+        "Sinigang"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Sagada lemon pie",
+          "d": "The famous lemon pie in the town cafes.",
+          "p": [
+            80,
+            150
+          ],
+          "e": "🥧"
+        },
+        {
+          "t": "special",
+          "n": "Yoghurt with local honey and granola",
+          "d": "A Sagada cafe staple.",
+          "p": [
+            100,
+            200
+          ],
+          "e": "🥛"
+        },
+        {
+          "t": "special",
+          "n": "Etag and pinikpikan",
+          "d": "Cured pork and traditional chicken.",
+          "p": [
+            150,
+            350
+          ],
+          "e": "🥓"
+        },
+        {
+          "t": "grill",
+          "n": "Grilled pork",
+          "d": "Charcoal-grilled pork with rice.",
+          "p": [
+            100,
+            220
+          ],
+          "e": "🥓"
+        },
+        {
+          "t": "street",
+          "n": "Sagada coffee",
+          "d": "Locally grown highland coffee.",
+          "p": [
+            60,
+            150
+          ],
+          "e": "☕"
+        },
+        {
+          "t": "soup",
+          "n": "Tinola and nilaga",
+          "d": "Warm soups for cold mountain nights.",
+          "p": [
+            90,
+            220
+          ],
+          "e": "🍲"
+        }
+      ]
+    },
+    {
+      "id": "batanes",
+      "name": "Batanes",
+      "group": "Luzon",
+      "lat": 20.45,
+      "lon": 121.97,
+      "emoji": "🐑",
+      "wiki": "Batanes",
+      "tags": [
+        "nature",
+        "history",
+        "adventure"
+      ],
+      "hidden": true,
+      "best": "Mar-Jun",
+      "cost": {
+        "budget": 2300,
+        "mid": 4500,
+        "comfort": 8500
+      },
+      "eat": "Uvud balls and coconut crab",
+      "blurb": "Rolling green hills, stone houses, and sea cliffs at the country's northern edge.",
+      "gateway": "Flights from Manila or Tuguegarao to Basco. Weather often delays flights, so keep spare days.",
+      "acts": [
+        {
+          "n": "North Batan day tour",
+          "c": 1200
+        },
+        {
+          "n": "Sabtang Island day trip",
+          "c": 1800,
+          "wiki": "Sabtang,_Batanes"
+        },
+        {
+          "n": "Bike rental",
+          "c": 500
+        }
+      ],
+      "foodNames": [
+        "Kinilaw",
+        "Turon"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Uvud balls",
+          "d": "Banana-heart and minced meat balls, an Ivatan dish.",
+          "p": [
+            50,
+            150
+          ],
+          "e": "🍖"
+        },
+        {
+          "t": "special",
+          "n": "Coconut crab (tatus)",
+          "d": "Rare delicacy, and legally protected, so eat only what is allowed.",
+          "p": [
+            800,
+            2000
+          ],
+          "e": "🦀"
+        },
+        {
+          "t": "special",
+          "n": "Lunis (pork)",
+          "d": "Ivatan cured pork, often with rice.",
+          "p": [
+            150,
+            350
+          ],
+          "e": "🥓"
+        },
+        {
+          "t": "grill",
+          "n": "Inihaw na lapu-lapu",
+          "d": "Grilled fish from Batan waters.",
+          "p": [
+            200,
+            450
+          ],
+          "e": "🐟"
+        },
+        {
+          "t": "street",
+          "n": "Local snacks",
+          "d": "Simple fried snacks at town stalls.",
+          "p": [
+            20,
+            60
+          ],
+          "e": "🍘"
+        },
+        {
+          "t": "soup",
+          "n": "Fish soup",
+          "d": "Light soup from the day's catch.",
+          "p": [
+            100,
+            250
+          ],
+          "e": "🥣"
+        }
+      ]
+    },
+    {
+      "id": "boracay",
+      "name": "Boracay, Aklan",
+      "group": "Visayas",
+      "lat": 11.97,
+      "lon": 121.92,
+      "emoji": "⛵",
+      "wiki": "Boracay",
+      "tags": [
+        "beach",
+        "food"
+      ],
+      "hidden": false,
+      "best": "Nov-May",
+      "cost": {
+        "budget": 2000,
+        "mid": 4500,
+        "comfort": 11000
+      },
+      "eat": "Chori burger and seafood grill",
+      "blurb": "White Beach, sunset sailing, and a lively evening scene.",
+      "gateway": "Fly to Caticlan (or Kalibo, then a 2-hour van), then a short boat from the jetty port.",
+      "acts": [
+        {
+          "n": "Sunset paraw sailing",
+          "c": 500,
+          "wiki": "Boracay"
+        },
+        {
+          "n": "Island hopping",
+          "c": 1000
+        },
+        {
+          "n": "Parasailing",
+          "c": 2500
+        },
+        {
+          "n": "Puka Shell Beach (tricycle)",
+          "c": 300,
+          "wiki": "Boracay"
+        }
+      ],
+      "foodNames": [
+        "Chicken inasal",
+        "Halo-halo",
+        "Kinilaw"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Chori burger",
+          "d": "Chorizo burger, a Boracay classic.",
+          "p": [
+            120,
+            250
+          ],
+          "e": "🍔"
+        },
+        {
+          "t": "special",
+          "n": "D'Talipapa seafood",
+          "d": "Pick your seafood at the market, have a restaurant cook it.",
+          "p": [
+            400,
+            1200
+          ],
+          "e": "🦞"
+        },
+        {
+          "t": "grill",
+          "n": "Inihaw na pusit and tuna",
+          "d": "Grilled right on the beach.",
+          "p": [
+            150,
+            400
+          ],
+          "e": "🦑"
+        },
+        {
+          "t": "grill",
+          "n": "Inihaw na liempo",
+          "d": "Charcoal-grilled pork belly, smoky and crisp at the edges.",
+          "p": [
+            100,
+            220
+          ],
+          "e": "🥓"
+        },
+        {
+          "t": "street",
+          "n": "Barbecue sticks",
+          "d": "Evening stalls near Station 2.",
+          "p": [
+            20,
+            50
+          ],
+          "e": "🍢"
+        },
+        {
+          "t": "street",
+          "n": "Fresh buko",
+          "d": "Coconut from beach vendors.",
+          "p": [
+            50,
+            100
+          ],
+          "e": "🥥"
+        },
+        {
+          "t": "soup",
+          "n": "Sinigang na hipon / fish soup",
+          "d": "Sour soup with the day's catch, found in most beach towns.",
+          "p": [
+            120,
+            300
+          ],
+          "e": "🥣"
+        },
+        {
+          "t": "soup",
+          "n": "Tinola",
+          "d": "Light chicken soup with ginger, green papaya and chili leaves.",
+          "p": [
+            90,
+            200
+          ],
+          "e": "🍲"
+        }
+      ]
+    },
+    {
+      "id": "cebu",
+      "name": "Cebu: Moalboal and Kawasan",
+      "group": "Visayas",
+      "lat": 9.95,
+      "lon": 123.4,
+      "emoji": "🐟",
+      "wiki": "Moalboal",
+      "tags": [
+        "adventure",
+        "beach",
+        "food"
+      ],
+      "hidden": false,
+      "best": "Dec-May",
+      "cost": {
+        "budget": 1500,
+        "mid": 3400,
+        "comfort": 7200
+      },
+      "eat": "Lechon and puso rice",
+      "blurb": "Sardine runs, canyoneering falls, and the Philippines' favorite roast pig.",
+      "gateway": "Fly to Mactan-Cebu airport. Moalboal is a 3-hour bus from Cebu South Bus Terminal.",
+      "acts": [
+        {
+          "n": "Snorkel the sardine run",
+          "c": 300,
+          "wiki": "Moalboal"
+        },
+        {
+          "n": "Kawasan Falls canyoneering",
+          "c": 1400,
+          "wiki": "Kawasan_Falls"
+        },
+        {
+          "n": "Pescador Island hopping",
+          "c": 1200,
+          "wiki": "Pescador_Island"
+        },
+        {
+          "n": "Osmena Peak sunrise hike",
+          "c": 100
+        }
+      ],
+      "foodNames": [
+        "Lechon",
+        "Kinilaw"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Lechon Cebu",
+          "d": "Spiced, crisp-skinned roast pig. Served at lechon stalls around the city.",
+          "p": [
+            200,
+            500
+          ],
+          "e": "🐖"
+        },
+        {
+          "t": "special",
+          "n": "Puso (hanging rice)",
+          "d": "Rice cooked in woven coconut leaves.",
+          "p": [
+            10,
+            25
+          ],
+          "e": "🍙"
+        },
+        {
+          "t": "special",
+          "n": "Ngohiong",
+          "d": "Cebu's five-spice spring rolls.",
+          "p": [
+            30,
+            70
+          ],
+          "e": "🥟"
+        },
+        {
+          "t": "street",
+          "n": "Pungko-pungko",
+          "d": "Street spot with fried snacks and puso. Eat standing.",
+          "p": [
+            30,
+            80
+          ],
+          "e": "🍢"
+        },
+        {
+          "t": "grill",
+          "n": "Inasal na manok",
+          "d": "Grilled chicken, common in Visayas.",
+          "p": [
+            120,
+            220
+          ],
+          "e": "🍗"
+        },
+        {
+          "t": "street",
+          "n": "Siomai and dried mangoes",
+          "d": "Popular snack and pasalubong.",
+          "p": [
+            30,
+            100
+          ],
+          "e": "🥟"
+        },
+        {
+          "t": "soup",
+          "n": "Bulalo",
+          "d": "Hearty marrow soup.",
+          "p": [
+            250,
+            600
+          ],
+          "e": "🍲"
+        },
+        {
+          "t": "soup",
+          "n": "Tinola",
+          "d": "Light chicken soup with ginger, green papaya and chili leaves.",
+          "p": [
+            90,
+            200
+          ],
+          "e": "🍲"
+        }
+      ]
+    },
+    {
+      "id": "bohol",
+      "name": "Bohol",
+      "group": "Visayas",
+      "lat": 9.85,
+      "lon": 124.14,
+      "emoji": "🐒",
+      "wiki": "Chocolate_Hills",
+      "tags": [
+        "nature",
+        "history",
+        "beach"
+      ],
+      "hidden": false,
+      "best": "Dec-May",
+      "cost": {
+        "budget": 1400,
+        "mid": 3200,
+        "comfort": 6800
+      },
+      "eat": "Calamay and kinilaw",
+      "blurb": "Chocolate Hills, tarsiers, and Panglao's calm beaches.",
+      "gateway": "Fast ferry from Cebu (about 2 hours) to Tagbilaran, or fly to Panglao airport.",
+      "acts": [
+        {
+          "n": "Countryside tour (Chocolate Hills, tarsier)",
+          "c": 1200,
+          "wiki": "Chocolate_Hills"
+        },
+        {
+          "n": "Loboc River lunch cruise",
+          "c": 450,
+          "wiki": "Loboc,_Bohol"
+        },
+        {
+          "n": "Balicasag and Virgin Island hopping",
+          "c": 900,
+          "wiki": "Balicasag_Island"
+        },
+        {
+          "n": "Firefly watching",
+          "c": 650
+        }
+      ],
+      "foodNames": [
+        "Kinilaw",
+        "Halo-halo"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Calamay",
+          "d": "Sticky coconut sweet in half coconut shells.",
+          "p": [
+            30,
+            80
+          ],
+          "e": "🍬"
+        },
+        {
+          "t": "special",
+          "n": "Kinilaw and fresh sea urchin",
+          "d": "Seafood fresh from Tagbilaran.",
+          "p": [
+            150,
+            400
+          ],
+          "e": "🐟"
+        },
+        {
+          "t": "special",
+          "n": "Peanut kisses",
+          "d": "Meringue peanut sweets, a Bohol pasalubong.",
+          "p": [
+            50,
+            120
+          ],
+          "e": "🥜"
+        },
+        {
+          "t": "grill",
+          "n": "Inihaw na isda",
+          "d": "Whole fish (tilapia, bangus, lapu-lapu) grilled over charcoal, eaten with rice and sawsawan.",
+          "p": [
+            120,
+            350
+          ],
+          "e": "🐟"
+        },
+        {
+          "t": "grill",
+          "n": "Grilled squid",
+          "d": "On Alona Beach grills.",
+          "p": [
+            120,
+            300
+          ],
+          "e": "🦑"
+        },
+        {
+          "t": "street",
+          "n": "Fishball and kikiam",
+          "d": "Deep-fried fish balls with sweet, sour or spicy sauce, from a street cart.",
+          "p": [
+            20,
+            50
+          ],
+          "e": "🍡"
+        },
+        {
+          "t": "street",
+          "n": "Kwek-kwek",
+          "d": "Orange-battered, deep-fried quail eggs.",
+          "p": [
+            20,
+            50
+          ],
+          "e": "🥚"
+        },
+        {
+          "t": "soup",
+          "n": "Sinigang na hipon / fish soup",
+          "d": "Sour soup with the day's catch, found in most beach towns.",
+          "p": [
+            120,
+            300
+          ],
+          "e": "🥣"
+        },
+        {
+          "t": "soup",
+          "n": "Tinola",
+          "d": "Light chicken soup with ginger, green papaya and chili leaves.",
+          "p": [
+            90,
+            200
+          ],
+          "e": "🍲"
+        }
+      ]
+    },
+    {
+      "id": "dumaguete",
+      "name": "Dumaguete and Apo Island",
+      "group": "Visayas",
+      "lat": 9.31,
+      "lon": 123.31,
+      "emoji": "🐢",
+      "wiki": "Dumaguete",
+      "tags": [
+        "nature",
+        "beach",
+        "food"
+      ],
+      "hidden": true,
+      "best": "Dec-May",
+      "cost": {
+        "budget": 1400,
+        "mid": 3000,
+        "comfort": 6000
+      },
+      "eat": "Sans Rival and budbud kabog",
+      "blurb": "A relaxed university city, and a sea-turtle sanctuary a short boat ride away.",
+      "gateway": "Direct flights from Manila and Cebu, or a ferry from Cebu or Siquijor.",
+      "acts": [
+        {
+          "n": "Apo Island turtle snorkeling",
+          "c": 1800,
+          "wiki": "Apo_Island"
+        },
+        {
+          "n": "Twin Lakes tour",
+          "c": 1200
+        },
+        {
+          "n": "Casaroro Falls",
+          "c": 150
+        }
+      ],
+      "foodNames": [
+        "Chicken inasal",
+        "Halo-halo"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Sans Rival",
+          "d": "Layered meringue and buttercream cake, a Dumaguete icon.",
+          "p": [
+            80,
+            200
+          ],
+          "e": "🍰"
+        },
+        {
+          "t": "special",
+          "n": "Budbud kabog",
+          "d": "Millet rice cake wrapped in banana leaf, with tablea.",
+          "p": [
+            20,
+            50
+          ],
+          "e": "🍙"
+        },
+        {
+          "t": "special",
+          "n": "Silvanas",
+          "d": "Cookie-like frozen buttercream sandwiches.",
+          "p": [
+            30,
+            100
+          ],
+          "e": "🍪"
+        },
+        {
+          "t": "grill",
+          "n": "Inasal na manok",
+          "d": "Charcoal chicken, common along the boulevard.",
+          "p": [
+            120,
+            220
+          ],
+          "e": "🍗"
+        },
+        {
+          "t": "street",
+          "n": "Rizal Boulevard night market",
+          "d": "Fresh grills and street snacks by the sea.",
+          "p": [
+            30,
+            150
+          ],
+          "e": "🍢"
+        },
+        {
+          "t": "street",
+          "n": "Isaw",
+          "d": "Grilled chicken intestine on a stick, dipped in spicy vinegar. Sold per stick by the roadside.",
+          "p": [
+            8,
+            15
+          ],
+          "e": "🍢"
+        },
+        {
+          "t": "street",
+          "n": "Fishball and kikiam",
+          "d": "Deep-fried fish balls with sweet, sour or spicy sauce, from a street cart.",
+          "p": [
+            20,
+            50
+          ],
+          "e": "🍡"
+        },
+        {
+          "t": "soup",
+          "n": "Soups and tinola",
+          "d": "Everyday comfort soups.",
+          "p": [
+            90,
+            200
+          ],
+          "e": "🍲"
+        }
+      ]
+    },
+    {
+      "id": "siquijor",
+      "name": "Siquijor",
+      "group": "Visayas",
+      "lat": 9.2,
+      "lon": 123.52,
+      "emoji": "🔥",
+      "wiki": "Siquijor",
       "tags": [
         "beach",
         "nature"
       ],
+      "hidden": true,
+      "best": "Dec-May",
+      "cost": {
+        "budget": 1200,
+        "mid": 2600,
+        "comfort": 5200
+      },
+      "eat": "Fresh fish and local bread",
+      "blurb": "The 'island of fire': quiet beaches, waterfalls, and centuries-old traditions.",
+      "gateway": "Ferry from Dumaguete (about 1 hour), or from Cebu and Bohol.",
       "acts": [
         {
-          "name": "Island hopping tour A",
-          "cost": 1400
+          "n": "Scooter rental (per day)",
+          "c": 500
         },
         {
-          "name": "Kayak at Small Lagoon",
-          "cost": 500
+          "n": "Cambugahay Falls",
+          "c": 50
         },
         {
-          "name": "Nacpan Beach trip",
-          "cost": 600
+          "n": "Salagdoong Beach",
+          "c": 100
+        },
+        {
+          "n": "Island tour by tricycle",
+          "c": 800
         }
-      ]
-    },
-    {
-      "name": "Cebu",
-      "region": "Visayas",
-      "blurb": "Waterfalls, canyoneering and whale sharks.",
-      "costPerDay": 2100,
-      "id": "cebu",
-      "tags": [
-        "adventure",
-        "food"
       ],
-      "acts": [
+      "foodNames": [
+        "Kinilaw",
+        "Turon"
+      ],
+      "menu": [
         {
-          "name": "Kawasan Falls canyoneering",
-          "cost": 1500
+          "t": "special",
+          "n": "Fresh fish and kinilaw",
+          "d": "Straight from the shore.",
+          "p": [
+            100,
+            300
+          ],
+          "e": "🐟"
         },
         {
-          "name": "Oslob whale shark",
-          "cost": 1500
+          "t": "special",
+          "n": "Local bread (pan de siquijor)",
+          "d": "Warm bread from small bakeries.",
+          "p": [
+            10,
+            30
+          ],
+          "e": "🍞"
         },
         {
-          "name": "Moalboal sardine run",
-          "cost": 300
+          "t": "grill",
+          "n": "Inihaw na isda",
+          "d": "Whole fish (tilapia, bangus, lapu-lapu) grilled over charcoal, eaten with rice and sawsawan.",
+          "p": [
+            120,
+            350
+          ],
+          "e": "🐟"
+        },
+        {
+          "t": "grill",
+          "n": "Grilled pork and chicken",
+          "d": "Beach-town grills.",
+          "p": [
+            100,
+            220
+          ],
+          "e": "🍗"
+        },
+        {
+          "t": "street",
+          "n": "Fresh buko and snacks",
+          "d": "Roadside stalls.",
+          "p": [
+            20,
+            60
+          ],
+          "e": "🥥"
+        },
+        {
+          "t": "soup",
+          "n": "Sinigang na hipon / fish soup",
+          "d": "Sour soup with the day's catch, found in most beach towns.",
+          "p": [
+            120,
+            300
+          ],
+          "e": "🥣"
+        },
+        {
+          "t": "soup",
+          "n": "Tinola",
+          "d": "Light chicken soup with ginger, green papaya and chili leaves.",
+          "p": [
+            90,
+            200
+          ],
+          "e": "🍲"
         }
       ]
     },
     {
-      "name": "Siargao",
-      "region": "Mindanao",
-      "blurb": "Surfing and island life.",
-      "costPerDay": 2200,
       "id": "siargao",
+      "name": "Siargao, Surigao del Norte",
+      "group": "Mindanao",
+      "lat": 9.85,
+      "lon": 126.05,
+      "emoji": "🏄",
+      "wiki": "Siargao",
       "tags": [
         "beach",
         "adventure"
       ],
+      "hidden": false,
+      "best": "Mar-Oct",
+      "cost": {
+        "budget": 1600,
+        "mid": 3600,
+        "comfort": 8000
+      },
+      "eat": "Smoothie bowls and fresh tuna",
+      "blurb": "Surf capital of the Philippines, with lagoons and tidal pools.",
+      "gateway": "Direct flights from Manila and Cebu to Sayak airport, then a 45-minute van to General Luna.",
       "acts": [
         {
-          "name": "Surf lesson",
-          "cost": 700
+          "n": "Surf lesson at Cloud 9",
+          "c": 800,
+          "wiki": "Siargao"
         },
         {
-          "name": "Island hopping",
-          "cost": 1100
+          "n": "Naked, Daku and Guyam island hopping",
+          "c": 1000,
+          "wiki": "Siargao"
         },
         {
-          "name": "Sugba Lagoon",
-          "cost": 1500
+          "n": "Sugba Lagoon tour",
+          "c": 1800,
+          "wiki": "Siargao"
+        },
+        {
+          "n": "Scooter rental (per day)",
+          "c": 500
+        }
+      ],
+      "foodNames": [
+        "Kinilaw",
+        "Halo-halo"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Smoothie bowls",
+          "d": "Cloud 9 cafe staple.",
+          "p": [
+            200,
+            350
+          ],
+          "e": "🥣"
+        },
+        {
+          "t": "special",
+          "n": "Fresh tuna kinilaw",
+          "d": "Local tuna, cured to order.",
+          "p": [
+            200,
+            400
+          ],
+          "e": "🐟"
+        },
+        {
+          "t": "grill",
+          "n": "Inihaw na tuna belly",
+          "d": "Grilled tuna, a Siargao standard.",
+          "p": [
+            200,
+            450
+          ],
+          "e": "🐟"
+        },
+        {
+          "t": "grill",
+          "n": "Inihaw na liempo",
+          "d": "Charcoal-grilled pork belly, smoky and crisp at the edges.",
+          "p": [
+            100,
+            220
+          ],
+          "e": "🥓"
+        },
+        {
+          "t": "street",
+          "n": "Isaw, barbecue and fishballs",
+          "d": "Night street stalls in General Luna.",
+          "p": [
+            10,
+            50
+          ],
+          "e": "🍢"
+        },
+        {
+          "t": "soup",
+          "n": "Sinigang na tuna",
+          "d": "Sour soup using fresh tuna.",
+          "p": [
+            120,
+            300
+          ],
+          "e": "🥣"
+        },
+        {
+          "t": "soup",
+          "n": "Tinola",
+          "d": "Light chicken soup with ginger, green papaya and chili leaves.",
+          "p": [
+            90,
+            200
+          ],
+          "e": "🍲"
         }
       ]
     },
     {
-      "name": "Banaue",
-      "region": "Luzon",
-      "blurb": "Rice terraces carved into the mountains.",
-      "costPerDay": 1500,
-      "id": "banaue",
+      "id": "camiguin",
+      "name": "Camiguin",
+      "group": "Mindanao",
+      "lat": 9.17,
+      "lon": 124.72,
+      "emoji": "♨️",
+      "wiki": "Camiguin",
       "tags": [
         "nature",
-        "history"
+        "beach",
+        "adventure"
       ],
+      "hidden": true,
+      "best": "Mar-Oct",
+      "cost": {
+        "budget": 1200,
+        "mid": 2600,
+        "comfort": 5200
+      },
+      "eat": "Pastel buns and lanzones",
+      "blurb": "Volcanoes, hot springs, and a sandbar island, all on a small island.",
+      "gateway": "Ferry from Balingoan (Mindanao) or Bohol, or fly to Camiguin from Cebu.",
       "acts": [
         {
-          "name": "Batad rice terraces trek",
-          "cost": 800
+          "n": "White Island sandbar boat",
+          "c": 350,
+          "wiki": "White_Island_(Camiguin)"
         },
         {
-          "name": "Local guide",
-          "cost": 500
+          "n": "Island tour by van",
+          "c": 600
         },
         {
-          "name": "Tappiya Falls",
-          "cost": 300
+          "n": "Katibawasan Falls",
+          "c": 30,
+          "wiki": "Katibawasan_Falls"
+        },
+        {
+          "n": "Ardent Hot Spring",
+          "c": 150
+        }
+      ],
+      "foodNames": [
+        "Kinilaw",
+        "Halo-halo"
+      ],
+      "menu": [
+        {
+          "t": "special",
+          "n": "Pastel buns",
+          "d": "Soft, custard-filled buns, a Camiguin signature.",
+          "p": [
+            15,
+            40
+          ],
+          "e": "🍞"
+        },
+        {
+          "t": "special",
+          "n": "Lanzones",
+          "d": "Local fruit, famous at the Lanzones Festival season (October).",
+          "p": [
+            40,
+            100
+          ],
+          "e": "🍈"
+        },
+        {
+          "t": "special",
+          "n": "Kinilaw and sweet fish",
+          "d": "Fresh island catch.",
+          "p": [
+            100,
+            300
+          ],
+          "e": "🐟"
+        },
+        {
+          "t": "grill",
+          "n": "Inihaw na isda",
+          "d": "Whole fish (tilapia, bangus, lapu-lapu) grilled over charcoal, eaten with rice and sawsawan.",
+          "p": [
+            120,
+            350
+          ],
+          "e": "🐟"
+        },
+        {
+          "t": "street",
+          "n": "Barbecue and fishballs",
+          "d": "Evening stalls in Mambajao.",
+          "p": [
+            10,
+            50
+          ],
+          "e": "🍢"
+        },
+        {
+          "t": "street",
+          "n": "Isaw",
+          "d": "Grilled chicken intestine on a stick, dipped in spicy vinegar. Sold per stick by the roadside.",
+          "p": [
+            8,
+            15
+          ],
+          "e": "🍢"
+        },
+        {
+          "t": "soup",
+          "n": "Sinigang na hipon / fish soup",
+          "d": "Sour soup with the day's catch, found in most beach towns.",
+          "p": [
+            120,
+            300
+          ],
+          "e": "🥣"
+        },
+        {
+          "t": "soup",
+          "n": "Tinola",
+          "d": "Light chicken soup with ginger, green papaya and chili leaves.",
+          "p": [
+            90,
+            200
+          ],
+          "e": "🍲"
         }
       ]
-    }
-  ],
-  "festivals": [
-    {
-      "name": "Sinulog",
-      "where": "Cebu City",
-      "when": "3rd Sunday of January",
-      "about": "Street dancing to honor the Santo Nino.",
-      "month": 1
-    },
-    {
-      "name": "Ati-Atihan",
-      "where": "Kalibo, Aklan",
-      "when": "January",
-      "about": "Costumes, drums and face paint.",
-      "month": 1
-    },
-    {
-      "name": "Pahiyas",
-      "where": "Lucban, Quezon",
-      "when": "May 15",
-      "about": "Houses decorated with colorful rice wafers.",
-      "month": 5
-    },
-    {
-      "name": "Kadayawan",
-      "where": "Davao City",
-      "when": "Third week of August",
-      "month": 8,
-      "about": "Thanksgiving for the harvest with parades and flowers."
-    },
-    {
-      "name": "MassKara",
-      "where": "Bacolod",
-      "when": "October",
-      "month": 10,
-      "about": "Smiling masks and street dancing."
-    },
-    {
-      "name": "Panagbenga",
-      "where": "Baguio",
-      "when": "February",
-      "month": 2,
-      "about": "A month-long flower festival."
     }
   ],
   "foods": [
     {
       "name": "Adobo",
       "region": "Everywhere",
-      "about": "Chicken or pork cooked in vinegar and soy sauce.",
-      "price": 150,
+      "wiki": "Philippine_adobo",
+      "emoji": "🍲",
+      "price": [
+        80,
+        220
+      ],
+      "about": "Chicken or pork braised in vinegar, soy sauce, garlic and bay leaf. Every family has its own version. Best with plain rice.",
       "type": "main"
     },
     {
       "name": "Sinigang",
       "region": "Everywhere",
-      "about": "Sour tamarind soup.",
-      "price": 180,
+      "wiki": "Sinigang",
+      "emoji": "🥣",
+      "price": [
+        100,
+        280
+      ],
+      "about": "A sour tamarind soup with pork, shrimp or fish and lots of vegetables. Comfort food on a rainy day.",
       "type": "soup"
     },
     {
       "name": "Lechon",
-      "region": "Cebu",
-      "about": "Roast pig with crispy skin.",
-      "price": 250,
+      "region": "Cebu and Visayas",
+      "wiki": "Lechon",
+      "emoji": "🐖",
+      "price": [
+        150,
+        500
+      ],
+      "about": "Whole roast pig with crackling skin. Cebu's version is stuffed with lemongrass and needs no sauce.",
+      "type": "main"
+    },
+    {
+      "name": "Kinilaw",
+      "region": "Visayas and Mindanao",
+      "wiki": "Kinilaw",
+      "emoji": "🐟",
+      "price": [
+        150,
+        350
+      ],
+      "about": "Raw fish cured in vinegar and calamansi with ginger, onion and chili. Ask for it freshly made at coastal markets.",
+      "type": "main"
+    },
+    {
+      "name": "Sisig",
+      "region": "Pampanga, Luzon",
+      "wiki": "Sisig",
+      "emoji": "🔥",
+      "price": [
+        120,
+        300
+      ],
+      "about": "Chopped pork on a sizzling plate with onion, chili and calamansi. A classic with beer.",
       "type": "main"
     },
     {
       "name": "Halo-halo",
       "region": "Everywhere",
-      "about": "Shaved ice with sweet beans, fruit and ube ice cream.",
-      "price": 120,
+      "wiki": "Halo-halo",
+      "emoji": "🍧",
+      "price": [
+        80,
+        250
+      ],
+      "about": "Shaved ice with sweet beans, jelly, fruit, leche flan and ube ice cream. Mix it all up before you eat.",
       "type": "sweet"
     },
     {
-      "name": "Isaw",
+      "name": "Balut",
       "region": "Everywhere",
-      "about": "Grilled chicken intestines on a stick, sold on the street.",
-      "price": 15,
+      "wiki": "Balut_(food)",
+      "emoji": "🥚",
+      "price": [
+        20,
+        40
+      ],
+      "about": "A boiled duck egg with a partly developed embryo, sold by street vendors at night. A famous food challenge.",
       "type": "street"
+    },
+    {
+      "name": "Chicken inasal",
+      "region": "Bacolod, Visayas",
+      "wiki": "Chicken_inasal",
+      "emoji": "🍗",
+      "price": [
+        100,
+        250
+      ],
+      "about": "Chicken marinated in calamansi, lemongrass and annatto oil, grilled over charcoal. Eaten with garlic rice.",
+      "type": "grill"
+    },
+    {
+      "name": "Bicol Express",
+      "region": "Bicol, Luzon",
+      "wiki": "Bicol_express",
+      "emoji": "🌶️",
+      "price": [
+        100,
+        250
+      ],
+      "about": "Pork in coconut milk with long green chilis and shrimp paste. The spiciest dish on this list.",
+      "type": "main"
+    },
+    {
+      "name": "Vigan empanada",
+      "region": "Ilocos, Luzon",
+      "wiki": "Empanada",
+      "emoji": "🥟",
+      "price": [
+        50,
+        100
+      ],
+      "about": "A crisp orange shell filled with grated papaya, egg and longganisa. Eat it hot from the stall at Plaza Burgos.",
+      "type": "street"
+    },
+    {
+      "name": "Pancit habhab",
+      "region": "Lucban, Luzon",
+      "wiki": "Pancit_habhab",
+      "emoji": "🍜",
+      "price": [
+        30,
+        80
+      ],
+      "about": "Stir-fried noodles served on a banana leaf, eaten without utensils. Lift the noodles straight to your mouth.",
+      "type": "street",
+      "img": "habhab.jpg"
+    },
+    {
+      "name": "Kare-kare",
+      "region": "Luzon",
+      "wiki": "Kare-kare",
+      "emoji": "🥜",
+      "price": [
+        200,
+        450
+      ],
+      "about": "Oxtail and vegetables in a thick peanut sauce, served with bagoong (shrimp paste) on the side.",
+      "type": "main"
+    },
+    {
+      "name": "Silog (tapsilog)",
+      "region": "Everywhere",
+      "wiki": "Silog",
+      "emoji": "🍳",
+      "price": [
+        80,
+        160
+      ],
+      "about": "Garlic fried rice and a fried egg with beef tapa, sausage or fish. The standard Filipino breakfast.",
+      "type": "main"
+    },
+    {
+      "name": "Taho",
+      "region": "Everywhere",
+      "wiki": "Taho",
+      "emoji": "🥛",
+      "price": [
+        20,
+        50
+      ],
+      "about": "Warm silken tofu with brown sugar syrup and tapioca pearls, sold in the morning by vendors who call 'Tahooo!'",
+      "type": "street"
+    },
+    {
+      "name": "Turon",
+      "region": "Everywhere",
+      "wiki": "Turon_(food)",
+      "emoji": "🍌",
+      "price": [
+        15,
+        40
+      ],
+      "about": "Sweet banana and jackfruit rolled in a spring roll wrapper, fried with caramelised sugar.",
+      "type": "sweet"
+    },
+    {
+      "name": "Durian",
+      "region": "Davao, Mindanao",
+      "wiki": "Durian",
+      "emoji": "🟡",
+      "price": [
+        100,
+        400
+      ],
+      "about": "A strong-smelling fruit with a creamy flesh. Davao is the best place to try it, and it is the star of Kadayawan.",
+      "type": "sweet"
+    },
+    {
+      "name": "Inihaw na liempo",
+      "region": "Everywhere",
+      "wiki": "Inihaw",
+      "emoji": "🥓",
+      "price": [
+        100,
+        220
+      ],
+      "about": "Pork belly marinated and grilled over charcoal. The classic inihaw, eaten with rice and a sour dip.",
+      "type": "grill"
     },
     {
       "name": "Inihaw na bangus",
       "region": "Luzon",
-      "about": "Grilled milkfish stuffed with tomato and onion.",
-      "price": 200,
+      "wiki": "Milkfish",
+      "emoji": "🐟",
+      "price": [
+        120,
+        300
+      ],
+      "about": "Milkfish stuffed with tomato and onion, then grilled. Pangasinan is famous for it.",
       "type": "grill"
+    },
+    {
+      "name": "Isaw",
+      "region": "Everywhere",
+      "wiki": "Isaw",
+      "emoji": "🍢",
+      "price": [
+        8,
+        20
+      ],
+      "about": "Grilled chicken or pork intestine on a stick, dipped in spicy vinegar. Cheap and everywhere.",
+      "type": "street"
+    },
+    {
+      "name": "Fishball and kikiam",
+      "region": "Everywhere",
+      "wiki": "Fish_ball",
+      "emoji": "🍡",
+      "price": [
+        20,
+        50
+      ],
+      "about": "Deep-fried fish balls with sweet, sour or spicy sauce, from a street cart.",
+      "type": "street"
+    },
+    {
+      "name": "Kwek-kwek",
+      "region": "Everywhere",
+      "wiki": "Kwek_kwek",
+      "emoji": "🥚",
+      "price": [
+        20,
+        50
+      ],
+      "about": "Orange-battered, deep-fried quail eggs with vinegar.",
+      "type": "street"
+    },
+    {
+      "name": "Lumpiang shanghai",
+      "region": "Everywhere",
+      "wiki": "Lumpia",
+      "emoji": "🥟",
+      "price": [
+        60,
+        150
+      ],
+      "about": "Small crisp spring rolls of minced pork. A party favorite.",
+      "type": "street"
+    },
+    {
+      "name": "Tinola",
+      "region": "Everywhere",
+      "wiki": "Tinola",
+      "emoji": "🍲",
+      "price": [
+        90,
+        200
+      ],
+      "about": "Light chicken soup with ginger, green papaya and chili leaves.",
+      "type": "soup"
+    },
+    {
+      "name": "Bulalo",
+      "region": "Batangas, Luzon",
+      "wiki": "Bulalo",
+      "emoji": "🍲",
+      "price": [
+        250,
+        650
+      ],
+      "about": "Slow-cooked beef shank and bone marrow soup. A cold-weather favorite in Tagaytay.",
+      "type": "soup"
+    },
+    {
+      "name": "La Paz batchoy",
+      "region": "Iloilo, Visayas",
+      "wiki": "La_Paz_batchoy",
+      "emoji": "🍜",
+      "price": [
+        70,
+        160
+      ],
+      "about": "Noodle soup with pork innards, crushed chicharon and egg. Born in La Paz market, Iloilo.",
+      "type": "soup"
+    },
+    {
+      "name": "Pancit Malabon",
+      "region": "Malabon, Luzon",
+      "wiki": "Pancit_Malabon",
+      "emoji": "🍜",
+      "price": [
+        100,
+        220
+      ],
+      "about": "Thick rice noodles in a rich orange seafood sauce with shrimp and egg.",
+      "type": "main"
+    },
+    {
+      "name": "Pinakbet",
+      "region": "Ilocos, Luzon",
+      "wiki": "Pinakbet",
+      "emoji": "🥬",
+      "price": [
+        80,
+        180
+      ],
+      "about": "Ilocano vegetable stew with squash, okra and eggplant, flavored with bagoong.",
+      "type": "main"
+    },
+    {
+      "name": "Laing",
+      "region": "Bicol, Luzon",
+      "wiki": "Laing",
+      "emoji": "🍃",
+      "price": [
+        80,
+        180
+      ],
+      "about": "Dried taro leaves slow-cooked in spicy coconut milk.",
+      "type": "main"
+    },
+    {
+      "name": "Pastil",
+      "region": "Maguindanao, Mindanao",
+      "wiki": "Pastil",
+      "emoji": "🍙",
+      "price": [
+        15,
+        50
+      ],
+      "about": "Rice with shredded chicken or beef wrapped in a banana leaf. Cheap and filling.",
+      "type": "street"
+    },
+    {
+      "name": "Satti",
+      "region": "Zamboanga, Mindanao",
+      "wiki": "Satti",
+      "emoji": "🍢",
+      "price": [
+        60,
+        150
+      ],
+      "about": "Grilled skewers with a sweet, spicy sauce, served with puso rice. A Zamboanga breakfast.",
+      "type": "grill"
+    },
+    {
+      "name": "Piaya",
+      "region": "Bacolod, Visayas",
+      "wiki": "Piaya",
+      "emoji": "🥞",
+      "price": [
+        30,
+        100
+      ],
+      "about": "Flat, crisp flatbread filled with muscovado sugar. A Bacolod souvenir.",
+      "type": "sweet"
+    },
+    {
+      "name": "Sans Rival",
+      "region": "Dumaguete, Visayas",
+      "wiki": "Sans_rival",
+      "emoji": "🍰",
+      "price": [
+        80,
+        200
+      ],
+      "about": "Layered cashew meringue and buttercream cake, sold in Dumaguete.",
+      "type": "sweet"
+    },
+    {
+      "name": "Bibingka",
+      "region": "Everywhere",
+      "wiki": "Bibingka",
+      "emoji": "🍰",
+      "price": [
+        40,
+        120
+      ],
+      "about": "Rice cake cooked in banana leaf with coals above and below. Common at Christmas time.",
+      "type": "sweet"
+    },
+    {
+      "name": "Puto bumbong",
+      "region": "Everywhere",
+      "wiki": "Puto_bumbong",
+      "emoji": "🍡",
+      "price": [
+        40,
+        100
+      ],
+      "about": "Purple sticky rice steamed in bamboo, with butter, coconut and sugar. A Christmas dawn treat.",
+      "type": "sweet"
+    },
+    {
+      "name": "Ube halaya",
+      "region": "Luzon",
+      "wiki": "Ube_halaya",
+      "emoji": "🍠",
+      "price": [
+        80,
+        250
+      ],
+      "about": "Sweet purple yam jam. Found in cakes, ice cream and Baguio and Bohol souvenir stores.",
+      "type": "sweet"
+    }
+  ],
+  "festivals": [
+    {
+      "name": "Ati-Atihan",
+      "month": 1,
+      "when": "3rd weekend of January",
+      "where": "Kalibo, Aklan",
+      "about": "Street dancing with soot-painted faces and tribal costumes, honoring the Santo Nino. Expect a very big crowd.",
+      "food": "Inasal and fresh seafood",
+      "wiki": "Ati-Atihan_festival",
+      "alt": "Kalibo",
+      "emoji": "🥁"
+    },
+    {
+      "name": "Sinulog",
+      "month": 1,
+      "when": "3rd Sunday of January",
+      "where": "Cebu City",
+      "about": "A grand parade and dance honoring the Santo Nino. Book rooms months ahead.",
+      "food": "Lechon",
+      "wiki": "Sinulog_Festival",
+      "alt": "Cebu_City",
+      "emoji": "💃"
+    },
+    {
+      "name": "Panagbenga (Flower Festival)",
+      "month": 2,
+      "when": "All of February",
+      "where": "Baguio",
+      "about": "Floral floats and street dancing in the cool mountain city.",
+      "food": "Strawberry taho",
+      "wiki": "Panagbenga",
+      "alt": "Baguio",
+      "emoji": "🌸"
+    },
+    {
+      "name": "Kaamulan",
+      "month": 3,
+      "when": "February to March",
+      "where": "Malaybalay, Bukidnon",
+      "about": "A gathering of seven indigenous groups with rituals, dances and crafts.",
+      "food": "Local root crops and grilled meats",
+      "wiki": "Kaamulan_Festival",
+      "alt": "Malaybalay",
+      "emoji": "🪘"
+    },
+    {
+      "name": "Holy Week and Moriones",
+      "month": 4,
+      "when": "March or April (dates follow Easter)",
+      "where": "Marinduque",
+      "about": "Masked Roman soldier reenactments. Many cities go quiet, and some shops close on Good Friday.",
+      "food": "Arroz caldo",
+      "wiki": "Moriones_Festival",
+      "alt": "Marinduque",
+      "emoji": "🎭"
+    },
+    {
+      "name": "Pahiyas",
+      "month": 5,
+      "when": "May 15",
+      "where": "Lucban, Quezon",
+      "about": "Houses decorated with colorful rice wafers (kiping) and fresh produce.",
+      "food": "Pancit habhab and longganisa",
+      "wiki": "Pahiyas_Festival",
+      "alt": "Lucban",
+      "emoji": "🌾"
+    },
+    {
+      "name": "Flores de Mayo",
+      "month": 5,
+      "when": "All of May",
+      "where": "Towns across the country",
+      "about": "A month of flower offerings and evening processions with the Santacruzan parade.",
+      "food": "Local merienda and sweet kakanin",
+      "wiki": "Flores_de_Mayo",
+      "alt": "Philippines",
+      "emoji": "💐"
+    },
+    {
+      "name": "Parada ng Lechon",
+      "month": 6,
+      "when": "June 24",
+      "where": "Balayan, Batangas",
+      "about": "Roast pigs dressed in costumes are paraded through the street, and people soak each other with water.",
+      "food": "Lechon, of course",
+      "wiki": "Parada_ng_Lechon",
+      "alt": "Balayan,_Batangas",
+      "emoji": "🐖"
+    },
+    {
+      "name": "Sandugo",
+      "month": 7,
+      "when": "July",
+      "where": "Tagbilaran, Bohol",
+      "about": "Honors the 1565 blood compact with a week of parades, shows and street dancing.",
+      "food": "Calamay and kinilaw",
+      "wiki": "Sandugo_Festival",
+      "alt": "Tagbilaran",
+      "emoji": "🤝"
+    },
+    {
+      "name": "Kadayawan",
+      "month": 8,
+      "when": "3rd week of August",
+      "where": "Davao City",
+      "about": "A thanksgiving for harvest with tribal costumes, floral parades and street dancing.",
+      "food": "Durian and fruit",
+      "wiki": "Kadayawan_Festival",
+      "alt": "Davao_City",
+      "emoji": "🌺"
+    },
+    {
+      "name": "Penafrancia Festival",
+      "month": 9,
+      "when": "Mid-September",
+      "where": "Naga City, Camarines Sur",
+      "about": "A fluvial procession on the Naga River honoring Our Lady of Penafrancia.",
+      "food": "Bicol Express and kinalas",
+      "wiki": "Our_Lady_of_Peñafrancia",
+      "alt": "Naga,_Camarines_Sur",
+      "emoji": "⛵"
+    },
+    {
+      "name": "MassKara",
+      "month": 10,
+      "when": "3rd weekend of October",
+      "where": "Bacolod",
+      "about": "Smiling masks, street dancing, and a food fair.",
+      "food": "Chicken inasal",
+      "wiki": "MassKara_Festival",
+      "alt": "Bacolod",
+      "emoji": "🎭"
+    },
+    {
+      "name": "Undas (All Saints' Day)",
+      "month": 11,
+      "when": "November 1-2",
+      "where": "Everywhere",
+      "about": "Families visit cemeteries, bring food and flowers, and stay overnight. Expect heavy travel traffic and full buses and flights.",
+      "food": "Home-cooked kakanin",
+      "wiki": "All_Saints'_Day",
+      "alt": "Philippines",
+      "emoji": "🕯️"
+    },
+    {
+      "name": "Giant Lantern Festival",
+      "month": 12,
+      "when": "Saturday before Christmas Eve",
+      "where": "San Fernando, Pampanga",
+      "about": "Huge, spinning light-up lanterns made by local artisans.",
+      "food": "Sisig and tibok-tibok",
+      "wiki": "Giant_Lantern_Festival",
+      "alt": "San_Fernando,_Pampanga",
+      "emoji": "🏮"
+    },
+    {
+      "name": "Simbang Gabi",
+      "month": 12,
+      "when": "December 16-24",
+      "where": "Everywhere",
+      "about": "Nine dawn masses before Christmas, with food stalls outside every church.",
+      "food": "Puto bumbong and bibingka",
+      "wiki": "Simbang_Gabi",
+      "alt": "Philippines",
+      "emoji": "⛪"
+    },
+    {
+      "name": "Dinagyang",
+      "month": 1,
+      "when": "4th weekend of January",
+      "where": "Iloilo City",
+      "about": "Tribal-dance competition honoring the Santo Nino, with drums, painted bodies and huge costumes. Often called the sister of Ati-Atihan and Sinulog.",
+      "food": "La Paz batchoy and fresh seafood",
+      "wiki": "Dinagyang",
+      "alt": "Iloilo_City",
+      "emoji": "🥁"
+    },
+    {
+      "name": "Feast of the Black Nazarene",
+      "month": 1,
+      "when": "January 9",
+      "where": "Quiapo, Manila",
+      "about": "A huge religious procession of millions of devotees. Very crowded; keep valuables close.",
+      "food": "Street snacks around Quiapo Church",
+      "wiki": "Black_Nazarene",
+      "alt": "Quiapo,_Manila",
+      "emoji": "🙏"
+    },
+    {
+      "name": "Chinese New Year",
+      "month": 2,
+      "when": "Late January or February (dates vary)",
+      "where": "Binondo, Manila",
+      "about": "The oldest Chinatown in the world comes alive with dragon and lion dances and red lanterns.",
+      "food": "Dumplings, hopia, tikoy and noodles",
+      "wiki": "Chinese_New_Year",
+      "alt": "Binondo",
+      "emoji": "🧧"
+    },
+    {
+      "name": "Philippine International Hot Air Balloon Festival",
+      "month": 2,
+      "when": "February (dates vary)",
+      "where": "Clark, Pampanga",
+      "about": "Dozens of balloons lift off at sunrise, with a fair and stunt shows.",
+      "food": "Pampanga sisig and tocino",
+      "wiki": "Philippine_International_Hot_Air_Balloon_Festival",
+      "alt": "Clark_Freeport_and_Special_Economic_Zone",
+      "emoji": "🎈"
+    },
+    {
+      "name": "Pamulinawen Festival",
+      "month": 2,
+      "when": "February",
+      "where": "Laoag, Ilocos Norte",
+      "about": "A cultural festival with street dancing named after a famous Ilocano love song.",
+      "food": "Bagnet, Ilocos empanada and pinakbet",
+      "wiki": "Pamulinawen_Festival",
+      "alt": "Laoag",
+      "emoji": "🎶"
+    },
+    {
+      "name": "Araw ng Dabaw",
+      "month": 3,
+      "when": "March 16",
+      "where": "Davao City",
+      "about": "City anniversary with parades, trade fairs and indigenous performances.",
+      "food": "Durian, pomelo and grilled tuna",
+      "wiki": "Davao_City",
+      "alt": "Davao_City",
+      "emoji": "🎉"
+    },
+    {
+      "name": "Aliwan Fiesta",
+      "month": 4,
+      "when": "April (dates vary)",
+      "where": "Manila",
+      "about": "Competing street dancers and floats from festivals across the country in one weekend.",
+      "food": "Street food at Roxas Boulevard",
+      "wiki": "Aliwan_Fiesta",
+      "alt": "Manila",
+      "emoji": "🎊"
+    },
+    {
+      "name": "Bangus Festival",
+      "month": 4,
+      "when": "Late April",
+      "where": "Dagupan, Pangasinan",
+      "about": "Celebrates milkfish with a grilling contest and street party.",
+      "food": "Inihaw na bangus and daing",
+      "wiki": "Bangus_Festival",
+      "alt": "Dagupan",
+      "emoji": "🐟"
+    },
+    {
+      "name": "Carabao Festival",
+      "month": 5,
+      "when": "May 14 to 15",
+      "where": "Pulilan, Bulacan",
+      "about": "Farmers kneel their decorated water buffalo in front of the church to honor San Isidro.",
+      "food": "Local kakanin and kalamay",
+      "wiki": "Carabao_Festival",
+      "alt": "Pulilan",
+      "emoji": "🐃"
+    },
+    {
+      "name": "Wattah Wattah Festival",
+      "month": 6,
+      "when": "June 24",
+      "where": "San Juan, Metro Manila",
+      "about": "Everyone gets soaked with water in honor of San Juan Bautista, so keep your phone in a dry bag.",
+      "food": "Street grills and cold buko",
+      "wiki": "Wattah_Wattah_Festival",
+      "alt": "San_Juan,_Metro_Manila",
+      "emoji": "💦"
+    },
+    {
+      "name": "Start of the Ber Months",
+      "month": 9,
+      "when": "From September 1",
+      "where": "Nationwide",
+      "about": "The Philippines begins its Christmas season in September, with songs, lanterns and decorations everywhere.",
+      "food": "Bibingka and puto bumbong near the end of the year",
+      "wiki": "Christmas_in_the_Philippines",
+      "alt": "Philippines",
+      "emoji": "🎄"
+    },
+    {
+      "name": "Lanzones Festival",
+      "month": 10,
+      "when": "3rd week of October",
+      "where": "Camiguin",
+      "about": "Street dancing with fruit-covered floats and free lanzones. Camiguin is famous for its sweet lanzones.",
+      "food": "Fresh lanzones and pastel",
+      "wiki": "Lanzones_Festival",
+      "alt": "Camiguin",
+      "emoji": "🍈"
+    },
+    {
+      "name": "Zamboanga Hermosa Festival",
+      "month": 10,
+      "when": "Around October 12",
+      "where": "Zamboanga City",
+      "about": "Honors Nuestra Senora del Pilar with a fluvial parade of colorful vinta boats.",
+      "food": "Satti, curacha and pastil",
+      "wiki": "Zamboanga_Hermosa_Festival",
+      "alt": "Zamboanga_City",
+      "emoji": "⛵"
+    },
+    {
+      "name": "Higantes Festival",
+      "month": 11,
+      "when": "November 23",
+      "where": "Angono, Rizal",
+      "about": "Giant papier-mache figures dance through the streets for San Clemente.",
+      "food": "Local sweets and grilled fish",
+      "wiki": "Higantes_Festival",
+      "alt": "Angono,_Rizal",
+      "emoji": "🗿"
+    },
+    {
+      "name": "Noche Buena",
+      "month": 12,
+      "when": "December 24 to 25",
+      "where": "Nationwide",
+      "about": "The big family Christmas Eve feast after midnight mass.",
+      "food": "Hamon, queso de bola and lechon",
+      "wiki": "Noche_Buena",
+      "alt": "Philippines",
+      "emoji": "🍽️"
     }
   ],
   "transport": [
     {
       "mode": "Jeepney",
-      "key": "jeep",
-      "tip": "Cheap and everywhere. Pass your fare forward and say para to stop."
+      "emoji": "🚌",
+      "cost": "13-30 per ride",
+      "p": [
+        13,
+        30
+      ],
+      "tip": "Say 'Para po' to stop. Pass your fare forward to the driver. Tell the person next to you the stop you want if you are unsure."
     },
     {
       "mode": "Tricycle",
-      "key": "trike",
-      "tip": "Good for short rides. Agree on the price first."
+      "emoji": "🛺",
+      "cost": "20-100 per trip",
+      "p": [
+        20,
+        100
+      ],
+      "tip": "Agree on the price before you ride, or ask for the posted rate. A 'special trip' (private) costs more than a shared ride."
     },
     {
-      "mode": "Taxi",
-      "key": "taxi",
-      "tip": "Ask for the meter. Use a ride app if you can."
+      "mode": "Taxi and Grab",
+      "emoji": "🚕",
+      "cost": "Meter plus fees",
+      "p": null,
+      "tip": "Taxis must use the meter. Grab shows a fixed fare up front. Available in Manila, Cebu, Davao, Clark and Angeles."
+    },
+    {
+      "mode": "Bus",
+      "emoji": "🚍",
+      "cost": "300-1,500 intercity",
+      "p": [
+        300,
+        1500
+      ],
+      "tip": "Choose aircon buses for long trips. Book popular routes ahead during holidays like Holy Week and Undas."
     },
     {
       "mode": "Ferry",
-      "key": "ferry",
-      "tip": "Connects the islands. Book ahead in busy months."
-    }
-  ],
-  "tips": [
-    "Carry cash, many small towns have no ATM.",
-    "Bring a light rain jacket, rain comes fast.",
-    "Agree on the price before you ride.",
-    "Dress modestly when you visit churches.",
-    "Drink bottled or purified water."
-  ],
-  "phrases": [
-    {
-      "fil": "Salamat",
-      "en": "thank you",
-      "cat": "Basics"
+      "emoji": "⛴️",
+      "cost": "400-2,000",
+      "p": [
+        400,
+        2000
+      ],
+      "tip": "Check the weather and schedules the day before. Trips get cancelled in storms."
     },
     {
-      "fil": "Magandang umaga",
-      "en": "good morning",
-      "cat": "Basics"
+      "mode": "Domestic flight",
+      "emoji": "✈️",
+      "cost": "1,500-6,000",
+      "p": [
+        1500,
+        6000
+      ],
+      "tip": "Booking weeks ahead gives lower fares. Pack within the baggage limit, because budget carriers charge for extras."
     },
     {
-      "fil": "Opo",
-      "en": "yes (polite)",
-      "cat": "Basics"
-    },
-    {
-      "fil": "Magkano?",
-      "en": "how much?",
-      "cat": "Shopping"
-    },
-    {
-      "fil": "Pwede bang tumawad?",
-      "en": "can you lower the price?",
-      "cat": "Shopping"
-    },
-    {
-      "fil": "Saan ang banyo?",
-      "en": "where is the bathroom?",
-      "cat": "Getting around"
-    },
-    {
-      "fil": "Para po",
-      "en": "stop here, please",
-      "cat": "Getting around"
-    },
-    {
-      "fil": "Masarap!",
-      "en": "delicious!",
-      "cat": "Food"
+      "mode": "MRT, LRT and trains",
+      "emoji": "🚆",
+      "cost": "15-50 per ride",
+      "p": [
+        15,
+        50
+      ],
+      "tip": "Manila only. Fast in rush hour, but very crowded. Use the stored-value beep card for cheaper rides."
     }
   ],
   "routes": [
     {
-      "from": "Manila",
-      "to": "Puerto Princesa",
-      "mode": "Plane",
-      "time": "1h 30m",
-      "price": 3000
+      "from": "NAIA Airport",
+      "to": "Makati or BGC",
+      "mode": "Grab or metered taxi",
+      "p": [
+        350,
+        700
+      ],
+      "time": "30-90 min",
+      "tip": "Use the airport queue or book Grab. Skip anyone who approaches you inside the terminal."
     },
     {
-      "from": "Cebu City",
-      "to": "Bohol",
-      "mode": "Ferry",
-      "time": "2h",
-      "price": 700
+      "from": "Manila",
+      "to": "Baguio",
+      "mode": "Bus",
+      "p": [
+        500,
+        900
+      ],
+      "time": "5-7 hours",
+      "tip": "Victory Liner and Genesis run frequently. Book ahead during holidays."
+    },
+    {
+      "from": "Manila",
+      "to": "Banaue",
+      "mode": "Overnight bus",
+      "p": [
+        450,
+        700
+      ],
+      "time": "8-9 hours",
+      "tip": "Ohayami departs in the evening from Sampaloc. Bring a jacket, because the aircon is cold."
+    },
+    {
+      "from": "Manila",
+      "to": "Vigan",
+      "mode": "Bus",
+      "p": [
+        800,
+        1300
+      ],
+      "time": "8-10 hours",
+      "tip": "Choose a deluxe bus for sleeper seats."
     },
     {
       "from": "Puerto Princesa",
       "to": "El Nido",
-      "mode": "Van",
-      "time": "5h",
-      "price": 700
+      "mode": "Shared van",
+      "p": [
+        600,
+        800
+      ],
+      "time": "5-6 hours",
+      "tip": "Pick up from the airport or terminal. The road is long, so take motion sickness pills if you need them."
+    },
+    {
+      "from": "Cebu City",
+      "to": "Moalboal",
+      "mode": "Bus (Ceres)",
+      "p": [
+        150,
+        250
+      ],
+      "time": "3 hours",
+      "tip": "Take the aircon bus from the South Bus Terminal. They leave every 20-30 minutes."
+    },
+    {
+      "from": "Cebu City",
+      "to": "Tagbilaran (Bohol)",
+      "mode": "Fast ferry",
+      "p": [
+        600,
+        1000
+      ],
+      "time": "2 hours",
+      "tip": "OceanJet and Weesam Express run many trips. Book on the day or online."
+    },
+    {
+      "from": "Dumaguete",
+      "to": "Siquijor",
+      "mode": "Ferry",
+      "p": [
+        150,
+        300
+      ],
+      "time": "1 hour",
+      "tip": "Several trips a day. Get there 30 minutes early for tickets."
+    },
+    {
+      "from": "Caticlan jetty",
+      "to": "Boracay",
+      "mode": "Boat and fees",
+      "p": [
+        150,
+        350
+      ],
+      "time": "20 min",
+      "tip": "Pay the terminal fee and environmental fee at the jetty counters. Official counters have posted rates."
+    },
+    {
+      "from": "Sayak Airport",
+      "to": "General Luna (Siargao)",
+      "mode": "Shared van",
+      "p": [
+        150,
+        250
+      ],
+      "time": "45 min",
+      "tip": "A private van or tricycle costs a lot more. Join a shared van, and ask your hotel about transfers."
     }
   ],
   "scams": [
     {
-      "title": "Taxi without a meter",
-      "fix": "Ask the driver to use the meter, or book a ride through an app."
+      "title": "Taxi with a 'broken' meter",
+      "fix": "Ask for the meter before you ride ('Pakibukas ang metro po'). If the driver refuses, get out and book Grab or another taxi."
     },
     {
-      "title": "Overpriced tricycle",
-      "fix": "Agree on the price before you get in."
+      "title": "Flat-rate airport offers",
+      "fix": "Drivers approaching you inside arrivals often charge double. Use the official taxi queue or an app."
+    },
+    {
+      "title": "'Special trip' tricycles and boats",
+      "fix": "Ask the shared fare first. Say 'Hindi special trip po'. Ask your guesthouse for the usual price."
+    },
+    {
+      "title": "'The attraction is closed' story",
+      "fix": "A friendly stranger says your destination is closed and offers a different tour. Check the official page or ask at the entrance yourself."
+    },
+    {
+      "title": "Unofficial tour operators",
+      "fix": "Book island-hopping, diving and activities through your hotel or a DOT-accredited office. Compare two prices before paying."
+    },
+    {
+      "title": "Short change",
+      "fix": "Count your change with the cashier, especially with 500 and 1,000 peso bills. Keep small bills for tricycles and jeepneys."
+    },
+    {
+      "title": "Drinks from strangers",
+      "fix": "Accept drinks only from people you know, and keep your glass in sight, especially at bars and at night."
+    },
+    {
+      "title": "Card skimming and unknown ATMs",
+      "fix": "Use ATMs inside banks or malls. Cover your PIN. Notify your bank before you travel."
+    }
+  ],
+  "tips": [
+    {
+      "title": "Seasons and weather",
+      "items": [
+        "Dry season is roughly Nov-May. It is the best time for beaches.",
+        "Rainy season is Jun-Oct, and typhoons are most likely Jul-Oct.",
+        "Siargao and Camiguin are best in Mar-Oct, which is the opposite of Palawan.",
+        "Check PAGASA forecasts before ferry or island trips."
+      ]
+    },
+    {
+      "title": "What to pack",
+      "items": [
+        "Light clothes, sunscreen, and a rain jacket",
+        "Reef-safe sunscreen and a dry bag for island hopping",
+        "A power bank and a universal plug adapter (type A, B and C)",
+        "Cash in small bills. Many islands have few ATMs."
+      ]
+    },
+    {
+      "title": "Etiquette",
+      "items": [
+        "Say 'po' and 'opo' to show respect to elders and strangers.",
+        "Do 'mano' (touch an elder's hand to your forehead) if you are invited into a family.",
+        "Dress modestly in churches.",
+        "Remove shoes when entering a home.",
+        "Point with your lips or a nod instead of a finger, which can seem rude."
+      ]
+    },
+    {
+      "title": "Money",
+      "items": [
+        "Carry cash. Cards work in cities and resorts, but not in small towns.",
+        "ATMs charge a fee for foreign cards (often 200-250 pesos). Withdraw larger amounts less often.",
+        "Tipping is welcome. About 10% is common at restaurants without a service charge.",
+        "Haggle politely at markets, not at fixed-price shops."
+      ]
+    },
+    {
+      "title": "Connectivity",
+      "items": [
+        "Buy a Globe or Smart SIM at the airport, or use an eSIM.",
+        "Mobile data is cheap. Wi-Fi in islands is slow.",
+        "Download offline maps before island hops."
+      ]
+    },
+    {
+      "title": "Entry and documents",
+      "items": [
+        "Many nationalities get 30 days visa-free. Check the rules for your passport.",
+        "Register for eTravel before arrival, if it applies to you.",
+        "Your passport should be valid for at least 6 months.",
+        "Keep a photocopy and a photo of your passport."
+      ]
     }
   ],
   "emergency": [
     {
-      "label": "National emergency",
+      "label": "Emergency (police, fire, ambulance)",
       "num": "911"
     },
     {
@@ -304,9 +3384,947 @@
     }
   ],
   "phraseCats": [
-    "Basics",
+    "Greetings",
+    "Food",
     "Shopping",
     "Getting around",
-    "Food"
+    "Help"
+  ],
+  "phrases": [
+    {
+      "cat": "Greetings",
+      "fil": "Kumusta ka?",
+      "say": "koo-moos-TAH kah",
+      "en": "How are you?"
+    },
+    {
+      "cat": "Greetings",
+      "fil": "Magandang umaga",
+      "say": "mah-gahn-DAHNG oo-MAH-gah",
+      "en": "Good morning"
+    },
+    {
+      "cat": "Greetings",
+      "fil": "Magandang hapon",
+      "say": "mah-gahn-DAHNG HAH-pon",
+      "en": "Good afternoon"
+    },
+    {
+      "cat": "Greetings",
+      "fil": "Salamat po",
+      "say": "sah-LAH-maht poh",
+      "en": "Thank you (respectful)"
+    },
+    {
+      "cat": "Greetings",
+      "fil": "Walang anuman",
+      "say": "wah-LAHNG ah-noo-MAHN",
+      "en": "You're welcome"
+    },
+    {
+      "cat": "Greetings",
+      "fil": "Opo",
+      "say": "oh-POH",
+      "en": "Yes (respectful)"
+    },
+    {
+      "cat": "Greetings",
+      "fil": "Hindi po",
+      "say": "heen-DEE poh",
+      "en": "No (respectful)"
+    },
+    {
+      "cat": "Greetings",
+      "fil": "Pasensya na po",
+      "say": "pah-SEN-syah nah poh",
+      "en": "Sorry / excuse me"
+    },
+    {
+      "cat": "Greetings",
+      "fil": "Paalam",
+      "say": "pah-AH-lahm",
+      "en": "Goodbye"
+    },
+    {
+      "cat": "Food",
+      "fil": "Masarap!",
+      "say": "mah-sah-RAHP",
+      "en": "Delicious!"
+    },
+    {
+      "cat": "Food",
+      "fil": "Pahingi po ng tubig",
+      "say": "pah-HEE-ngee poh nahng TOO-beeg",
+      "en": "May I have water, please?"
+    },
+    {
+      "cat": "Food",
+      "fil": "Kain tayo!",
+      "say": "kah-EEN TAH-yoh",
+      "en": "Let's eat!"
+    },
+    {
+      "cat": "Food",
+      "fil": "Busog na ako",
+      "say": "BOO-sog nah ah-KOH",
+      "en": "I'm full"
+    },
+    {
+      "cat": "Food",
+      "fil": "Hindi ako kumakain ng karne",
+      "say": "heen-DEE ah-KOH koo-mah-kah-EEN nahng KAR-neh",
+      "en": "I don't eat meat"
+    },
+    {
+      "cat": "Food",
+      "fil": "Pa-bill po",
+      "say": "pah-BEEL poh",
+      "en": "The bill, please"
+    },
+    {
+      "cat": "Shopping",
+      "fil": "Magkano ito?",
+      "say": "mahg-KAH-noh EE-toh",
+      "en": "How much is this?"
+    },
+    {
+      "cat": "Shopping",
+      "fil": "Pwede po bang tumawad?",
+      "say": "PWEH-deh poh bahng too-mah-WAHD",
+      "en": "May I haggle, please?"
+    },
+    {
+      "cat": "Shopping",
+      "fil": "Medyo mahal po",
+      "say": "MED-yoh mah-HAHL poh",
+      "en": "It's a bit expensive"
+    },
+    {
+      "cat": "Shopping",
+      "fil": "Sige, kukunin ko",
+      "say": "SEE-geh koo-KOO-neen koh",
+      "en": "Okay, I'll take it"
+    },
+    {
+      "cat": "Shopping",
+      "fil": "Sukli po",
+      "say": "SOOK-lee poh",
+      "en": "My change, please"
+    },
+    {
+      "cat": "Getting around",
+      "fil": "Para po!",
+      "say": "PAH-rah poh",
+      "en": "Stop here, please! (jeepney)"
+    },
+    {
+      "cat": "Getting around",
+      "fil": "Bayad po",
+      "say": "BAH-yahd poh",
+      "en": "Payment (pass your fare forward)"
+    },
+    {
+      "cat": "Getting around",
+      "fil": "Pakibukas ang metro",
+      "say": "pah-kee-boo-KAHS ahng MEH-troh",
+      "en": "Please turn on the meter"
+    },
+    {
+      "cat": "Getting around",
+      "fil": "Magkano po hanggang dito?",
+      "say": "mahg-KAH-noh poh hahng-GAHNG DEE-toh",
+      "en": "How much to go here?"
+    },
+    {
+      "cat": "Getting around",
+      "fil": "Saan ang banyo?",
+      "say": "sah-AHN ahng BAHN-yoh",
+      "en": "Where is the restroom?"
+    },
+    {
+      "cat": "Help",
+      "fil": "Tulong!",
+      "say": "TOO-long",
+      "en": "Help!"
+    },
+    {
+      "cat": "Help",
+      "fil": "Tumawag kayo ng pulis",
+      "say": "too-mah-WAHG KAH-yoh nahng poo-LEES",
+      "en": "Call the police"
+    },
+    {
+      "cat": "Help",
+      "fil": "Kailangan ko ng doktor",
+      "say": "kah-ee-LAH-ngahn koh nahng DOK-tor",
+      "en": "I need a doctor"
+    },
+    {
+      "cat": "Help",
+      "fil": "Naliligaw ako",
+      "say": "nah-lee-LEE-gaw ah-KOH",
+      "en": "I'm lost"
+    },
+    {
+      "cat": "Help",
+      "fil": "Hindi ko maintindihan",
+      "say": "heen-DEE koh mah-een-teen-DEE-hahn",
+      "en": "I don't understand"
+    }
+  ],
+  "heroVideos": [
+    {
+      "src": "video/palawan.mp4",
+      "place": "Palawan"
+    },
+    {
+      "src": "video/rice-terraces.mp4",
+      "place": "Banaue Rice Terraces"
+    },
+    {
+      "src": "video/mayon.mp4",
+      "place": "Mayon Volcano"
+    },
+    {
+      "src": "video/boracay.mp4",
+      "place": "Boracay"
+    }
+  ],
+  "heroPlaces": [
+    "elnido",
+    "banaue",
+    "bohol",
+    "batanes",
+    "siargao",
+    "camiguin"
+  ],
+  "fruits": [
+    {
+      "name": "Carabao mango",
+      "wiki": "Carabao_mango",
+      "emoji": "🥭",
+      "months": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "region": "Guimaras, Zambales, Cebu",
+      "about": "Very sweet yellow mango with a thin seed. Often listed among the world's sweetest.",
+      "why": "Eat it ripe, or try the green mango with bagoong.",
+      "price": [
+        80,
+        200
+      ],
+      "unique": true
+    },
+    {
+      "name": "Calamansi",
+      "wiki": "Calamansi",
+      "emoji": "🍋",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "region": "Everywhere",
+      "about": "A tiny sour citrus used in drinks, dips and marinades.",
+      "why": "A Philippine kitchen staple, and not often sold fresh abroad. Try it as a juice or in muffins.",
+      "price": [
+        40,
+        100
+      ],
+      "unique": true
+    },
+    {
+      "name": "Durian",
+      "wiki": "Durian",
+      "emoji": "🍈",
+      "months": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "region": "Davao",
+      "about": "Creamy, strong-smelling flesh. Davao varieties include Puyat and Arancillo.",
+      "why": "Davao is the main durian region. Many hotels ban it.",
+      "price": [
+        150,
+        400
+      ],
+      "unique": false
+    },
+    {
+      "name": "Marang",
+      "wiki": "Artocarpus_odoratissimus",
+      "emoji": "🍈",
+      "months": [
+        7,
+        8,
+        9
+      ],
+      "region": "Mindanao",
+      "about": "Soft, sweet white flesh with a honey-like aroma, related to jackfruit.",
+      "why": "Rare outside Mindanao and Borneo.",
+      "price": [
+        100,
+        250
+      ],
+      "unique": true
+    },
+    {
+      "name": "Lanzones",
+      "wiki": "Lansium_parasiticum",
+      "emoji": "🍇",
+      "months": [
+        10,
+        11
+      ],
+      "region": "Camiguin, Paete, Mindanao",
+      "about": "Small round fruit with translucent, sweet and slightly sour segments.",
+      "why": "Camiguin has a festival for it every October.",
+      "price": [
+        60,
+        150
+      ],
+      "unique": false
+    },
+    {
+      "name": "Rambutan",
+      "wiki": "Rambutan",
+      "emoji": "🍒",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "region": "Mindanao, Laguna",
+      "about": "Hairy red shell with juicy white flesh inside.",
+      "why": "Common across Southeast Asia, but fresh Mindanao rambutan is good value.",
+      "price": [
+        60,
+        120
+      ],
+      "unique": false
+    },
+    {
+      "name": "Mangosteen",
+      "wiki": "Mangosteen",
+      "emoji": "🍇",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "region": "Mindanao, Basilan",
+      "about": "Purple shell, soft white segments that are sweet and a little tangy.",
+      "why": "Often grown in Mindanao. Choose ones with a soft shell.",
+      "price": [
+        120,
+        300
+      ],
+      "unique": false
+    },
+    {
+      "name": "Pomelo",
+      "wiki": "Pomelo",
+      "emoji": "🍊",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "region": "Davao",
+      "about": "Huge citrus with mild, juicy segments. Davao pomelo is a local favorite.",
+      "why": "Davao pomelo is sweeter than many other kinds.",
+      "price": [
+        60,
+        150
+      ],
+      "unique": false
+    },
+    {
+      "name": "Pili nut",
+      "wiki": "Canarium_ovatum",
+      "emoji": "🌰",
+      "months": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "region": "Bicol",
+      "about": "A creamy nut sold roasted, in candy and in brittle.",
+      "why": "Almost entirely a Bicol product. Great as a souvenir.",
+      "price": [
+        300,
+        800
+      ],
+      "unique": true
+    },
+    {
+      "name": "Langka (jackfruit)",
+      "wiki": "Jackfruit",
+      "emoji": "🍈",
+      "months": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "region": "Everywhere",
+      "about": "Sweet, chewy yellow pods, eaten fresh or in desserts like halo-halo.",
+      "why": "Also used as a vegetable when young (ginataang langka).",
+      "price": [
+        50,
+        150
+      ],
+      "unique": false
+    },
+    {
+      "name": "Saba banana",
+      "wiki": "Saba_banana",
+      "emoji": "🍌",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "region": "Everywhere",
+      "about": "Short, starchy banana, never eaten raw like a lakatan. Boiled, fried (banana-cue) or in turon.",
+      "why": "Cooking banana for street food, not sold the same way abroad.",
+      "price": [
+        30,
+        80
+      ],
+      "unique": true
+    },
+    {
+      "name": "Lakatan banana",
+      "wiki": "Musa_acuminata",
+      "emoji": "🍌",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "region": "Everywhere",
+      "about": "The standard sweet eating banana in the Philippines.",
+      "why": "Cheap and sold by the bunch at every market.",
+      "price": [
+        30,
+        70
+      ],
+      "unique": false
+    },
+    {
+      "name": "Santol",
+      "wiki": "Sandoricum_koetjape",
+      "emoji": "🍑",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "region": "Luzon, Visayas",
+      "about": "Round yellow fruit with white pulp that is sour and sweet. Also used in sinigang.",
+      "why": "Fresh, pickled or used in cooking.",
+      "price": [
+        30,
+        80
+      ],
+      "unique": true
+    },
+    {
+      "name": "Atis (sugar apple)",
+      "wiki": "Sugar-apple",
+      "emoji": "🍏",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "region": "Everywhere",
+      "about": "Bumpy green fruit with sweet, custard-like pulp and big black seeds.",
+      "why": "Spoon it out and watch for the seeds.",
+      "price": [
+        50,
+        150
+      ],
+      "unique": false
+    },
+    {
+      "name": "Duhat (Java plum)",
+      "wiki": "Syzygium_cumini",
+      "emoji": "🫐",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "region": "Luzon, Visayas",
+      "about": "Purple berry that stains your tongue. Sweet and puckery.",
+      "why": "A seasonal roadside snack, often eaten with salt.",
+      "price": [
+        40,
+        100
+      ],
+      "unique": true
+    },
+    {
+      "name": "Macopa",
+      "wiki": "Syzygium_samarangense",
+      "emoji": "🍐",
+      "months": [
+        3,
+        4,
+        5
+      ],
+      "region": "Everywhere",
+      "about": "Bell-shaped, pale pink fruit that is crisp and watery.",
+      "why": "Refreshing on a hot day. Skip it if you want something sweet.",
+      "price": [
+        40,
+        100
+      ],
+      "unique": true
+    },
+    {
+      "name": "Pineapple",
+      "wiki": "Pineapple",
+      "emoji": "🍍",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "region": "Bukidnon, Cebu, Cavite",
+      "about": "Sweet and juicy, with Bukidnon producing much of the fruit.",
+      "why": "The Philippines is among the world's largest producers.",
+      "price": [
+        40,
+        120
+      ],
+      "unique": false
+    },
+    {
+      "name": "Buko (young coconut)",
+      "wiki": "Coconut_water",
+      "emoji": "🥥",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "region": "Everywhere",
+      "about": "Fresh coconut water and soft meat, sold roadside with a straw.",
+      "why": "Cheap and refreshing everywhere. Buko juice is common.",
+      "price": [
+        30,
+        80
+      ],
+      "unique": false
+    },
+    {
+      "name": "Chico (sapodilla)",
+      "wiki": "Sapodilla",
+      "emoji": "🟤",
+      "months": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "region": "Luzon, Visayas",
+      "about": "Brown, soft and malty-sweet flesh, like caramel.",
+      "why": "Wait until it is soft before you eat it.",
+      "price": [
+        40,
+        100
+      ],
+      "unique": false
+    },
+    {
+      "name": "Kamias",
+      "wiki": "Averrhoa_bilimbi",
+      "emoji": "🥒",
+      "months": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "region": "Luzon",
+      "about": "Small, very sour green fruit used in sinigang and eaten with salt.",
+      "why": "Usually cooked, not eaten raw by visitors.",
+      "price": [
+        20,
+        60
+      ],
+      "unique": true
+    },
+    {
+      "name": "Guyabano (soursop)",
+      "wiki": "Soursop",
+      "emoji": "🍈",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "region": "Everywhere",
+      "about": "Spiky green fruit with creamy, tangy pulp. Often made into juice or ice cream.",
+      "why": "Common in juices and smoothies.",
+      "price": [
+        80,
+        200
+      ],
+      "unique": false
+    }
+  ],
+  "climate": {
+    "months": [
+      {
+        "s": "cool",
+        "r": 0
+      },
+      {
+        "s": "cool",
+        "r": 0
+      },
+      {
+        "s": "hot",
+        "r": 0
+      },
+      {
+        "s": "hot",
+        "r": 0
+      },
+      {
+        "s": "hot",
+        "r": 1
+      },
+      {
+        "s": "early",
+        "r": 1
+      },
+      {
+        "s": "early",
+        "r": 2
+      },
+      {
+        "s": "peak",
+        "r": 3
+      },
+      {
+        "s": "peak",
+        "r": 3
+      },
+      {
+        "s": "peak",
+        "r": 3
+      },
+      {
+        "s": "late",
+        "r": 3
+      },
+      {
+        "s": "late",
+        "r": 2
+      }
+    ],
+    "risk": [
+      "Very low",
+      "Low",
+      "Moderate",
+      "High"
+    ],
+    "seasons": {
+      "cool": {
+        "title": "Cool and dry",
+        "sum": "The most comfortable time to visit most of the country. The northeast monsoon (amihan) brings cooler, drier air.",
+        "regions": [
+          [
+            "Northern Luzon and Cordillera",
+            "Dry and cool. Sagada and Banaue can be cold at night, so bring a jacket. Batanes sea can be rough and boats may not sail."
+          ],
+          [
+            "Manila, Bicol and Southern Luzon",
+            "Mostly dry. Some rain on the eastern side (Bicol) from the amihan."
+          ],
+          [
+            "Visayas",
+            "Good for Cebu, Bohol and Boracay. Eastern parts, such as Samar and Leyte, can still be rainy."
+          ],
+          [
+            "Mindanao",
+            "The east (Siargao, Surigao, Davao) can be rainy through February. Davao and Camiguin are usually fine."
+          ],
+          [
+            "Palawan",
+            "Dry with calm seas. Very good for island hopping in El Nido and Coron."
+          ]
+        ],
+        "tips": [
+          "Book early for Boracay and El Nido, since this is peak season.",
+          "Pack a light jacket for the mountains and for night boat rides."
+        ]
+      },
+      "hot": {
+        "title": "Hot and dry",
+        "sum": "Hot, sunny and humid. Beaches are at their best, but it can be very hot in the city and crowded during Holy Week.",
+        "regions": [
+          [
+            "Northern Luzon and Cordillera",
+            "Dry and hot in the lowlands, pleasant in the mountains. Good time for Batanes, Vigan and the rice terraces."
+          ],
+          [
+            "Manila, Bicol and Southern Luzon",
+            "Very hot, with heat index often above 40°C. Plan outdoor sights for early morning or late afternoon."
+          ],
+          [
+            "Visayas",
+            "Calm seas and clear water. Great for Boracay, Bohol and Moalboal."
+          ],
+          [
+            "Mindanao",
+            "Hot and mostly dry. Rains start returning in some areas by late May."
+          ],
+          [
+            "Palawan",
+            "Hot with calm seas. Rain usually starts again from May or June."
+          ]
+        ],
+        "tips": [
+          "Holy Week (usually April) is very crowded and many places close for Good Friday.",
+          "Drink plenty of water, wear sunscreen, and rest in the afternoon."
+        ]
+      },
+      "early": {
+        "title": "Rainy season starts",
+        "sum": "The southwest monsoon (habagat) brings heavy rain, especially on the western side. Early typhoons are possible, and flooding is common in Metro Manila.",
+        "regions": [
+          [
+            "Northern Luzon and Cordillera",
+            "Frequent rain and possible landslides on mountain roads. Check road conditions before going to Sagada or Banaue."
+          ],
+          [
+            "Manila, Bicol and Southern Luzon",
+            "Heavy rain and flooding in Metro Manila. Bicol can be affected by typhoons."
+          ],
+          [
+            "Visayas",
+            "Rain showers, but often drier than Luzon. Boracay's main beach side can have rough seas and flag warnings."
+          ],
+          [
+            "Mindanao",
+            "Often less affected by typhoons. Davao and Camiguin may still be good."
+          ],
+          [
+            "Palawan",
+            "Rain and rougher sea. Some island hopping tours can be cancelled."
+          ]
+        ],
+        "tips": [
+          "Prices are lower, and fewer people visit.",
+          "Keep your flights flexible and keep phones and passports in a dry bag."
+        ]
+      },
+      "peak": {
+        "title": "Typhoon season peak",
+        "sum": "The busiest months for typhoons. Flights, boats and tours can be cancelled with little notice. Travel is possible, but plan with care.",
+        "regions": [
+          [
+            "Northern Luzon and Cordillera",
+            "The highest risk. Batanes flights often cancel, and landslides can close the roads to Sagada and Banaue."
+          ],
+          [
+            "Manila, Bicol and Southern Luzon",
+            "High risk. Bicol often faces typhoons first, and Manila floods heavily."
+          ],
+          [
+            "Visayas",
+            "Moderate to high risk, especially Eastern Visayas. Siargao surf season starts around September."
+          ],
+          [
+            "Mindanao",
+            "Usually the safest large region for typhoons, especially the south, but rain and floods still happen."
+          ],
+          [
+            "Palawan",
+            "Rainy and rougher seas. Typhoons can pass nearby, and boats can be cancelled."
+          ]
+        ],
+        "tips": [
+          "Buy travel insurance that covers typhoon cancellations.",
+          "Avoid tight connections, and add a buffer day before your flight home.",
+          "Do not go on boats, hikes or island hopping when a storm signal is up."
+        ]
+      },
+      "late": {
+        "title": "Late rains and typhoons",
+        "sum": "Rain slowly eases, but strong typhoons can still hit, especially Bicol, Visayas and Mindanao's east coast. Christmas season begins.",
+        "regions": [
+          [
+            "Northern Luzon and Cordillera",
+            "Cooler and drier by December. Good time for Vigan, Sagada and Banaue."
+          ],
+          [
+            "Manila, Bicol and Southern Luzon",
+            "Bicol can still be affected by late typhoons in November. Manila is cooler by December."
+          ],
+          [
+            "Visayas",
+            "Late typhoons are possible, and have hit the Visayas in November and December in past years. Check forecasts before island hopping."
+          ],
+          [
+            "Mindanao",
+            "The east coast can have heavy rain from the northeast monsoon. Siargao surf season continues into November."
+          ],
+          [
+            "Palawan",
+            "Improving weather through December, with calmer seas coming back."
+          ]
+        ],
+        "tips": [
+          "December is busy and expensive around Christmas and New Year. Book early.",
+          "Check PAGASA before travelling to the Visayas in November."
+        ]
+      }
+    },
+    "signals": [
+      [
+        "1",
+        "39 to 61 km/h",
+        "Strong winds. Minimal to minor threat. Be careful with boats and outdoor tours."
+      ],
+      [
+        "2",
+        "62 to 88 km/h",
+        "Gale-force winds. Minor to moderate threat. Boat trips are usually stopped."
+      ],
+      [
+        "3",
+        "89 to 117 km/h",
+        "Storm-force winds. Moderate to significant threat. Stay indoors."
+      ],
+      [
+        "4",
+        "118 to 184 km/h",
+        "Typhoon-force winds. Significant to severe threat. Stay in a safe building."
+      ],
+      [
+        "5",
+        "185 km/h or more",
+        "Extreme threat. Follow evacuation orders."
+      ]
+    ],
+    "links": [
+      [
+        "PAGASA (official weather)",
+        "https://www.pagasa.dost.gov.ph/"
+      ],
+      [
+        "NDRRMC (disaster updates)",
+        "https://ndrrmc.gov.ph/"
+      ]
+    ]
+  },
+  "faq": [
+    {
+      "q": "Do I need a visa?",
+      "a": "Many nationalities can enter without a visa for a short stay, often 30 days, but the rules depend on your passport. Check the Bureau of Immigration or the Philippine embassy for your country before you book. Your passport usually needs to be valid for at least six months, and you may be asked to show a ticket out of the country."
+    },
+    {
+      "q": "When is the best time to visit?",
+      "a": "The drier months, roughly November to May, are usually best for beaches and island hopping. June to October is rainier and has a higher typhoon risk, but it is often cheaper and quieter. Each place has its own best months on the Destinations page, and the typhoon guide on the Safety and phrases page shows the pattern for every month."
+    },
+    {
+      "q": "How does the budget planner work?",
+      "a": "Tick the places you want to visit, set the days, and choose the activities. Every price is in pesos, per person, and you can edit any of them. The total is shown in pesos and in your own currency. Your choices are saved in your browser, so they are still there when you come back."
+    },
+    {
+      "q": "Are the costs exact?",
+      "a": "No. They are rough estimates to help you plan. Prices change with the season, the place and how you travel, so check current prices before you book. International flights are not included."
+    },
+    {
+      "q": "What money should I carry?",
+      "a": "The Philippine peso. ATMs are easy to find in cities and malls, but small towns and islands can have none, so bring enough cash for those days. Small bills and coins help for tricycles, jeepneys and market stalls. Cards are accepted in most hotels, malls and larger restaurants."
+    },
+    {
+      "q": "Is it safe to travel in the Philippines?",
+      "a": "Most visitors travel without problems. Use the same care you would anywhere: watch your bag in crowds, use licensed taxis or ride-hailing apps, and avoid showing valuables. Some areas have government travel advisories, so check your own government's advice for the regions you plan to visit. The Safety and phrases page lists the emergency numbers."
+    },
+    {
+      "q": "How do I get between islands?",
+      "a": "By plane, ferry or bus-and-ferry combinations. Flights are fastest between far-apart places, and ferries link many nearby islands. Weather can delay both, especially in typhoon season, so keep a spare day before your flight home. See the Getting around page for fares and common routes."
+    },
+    {
+      "q": "Do I need a SIM card or internet?",
+      "a": "A local SIM or an eSIM is cheap and works well in cities and towns. Coverage can be weak on remote islands and in the mountains, so download offline maps and keep your key bookings saved on your phone."
+    },
+    {
+      "q": "What plug and voltage do they use?",
+      "a": "The Philippines uses 220 V at 60 Hz. Sockets take flat two-pin plugs (types A and B), and type C is also common. Check that your devices accept 220 V, and bring a universal adapter if you are unsure."
+    },
+    {
+      "q": "Where do the photos and live information come from?",
+      "a": "Photos come from Wikipedia and Wikimedia Commons, weather from Open-Meteo and exchange rates from Frankfurter. They need an internet connection. If one is not available, the site shows a fallback such as an approximate rate or an emoji instead of a photo."
+    },
+    {
+      "q": "Why is something not loading?",
+      "a": "If photos, the map or the live rate are missing, check your internet connection. If the whole page says it could not load data.json, open the site through a local server such as VS Code Live Server instead of double-clicking the HTML file."
+    }
   ]
 }
