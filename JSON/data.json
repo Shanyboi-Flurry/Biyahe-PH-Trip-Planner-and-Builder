@@ -2371,7 +2371,8 @@
         280
       ],
       "about": "A sour tamarind soup with pork, shrimp or fish and lots of vegetables. Comfort food on a rainy day.",
-      "type": "soup"
+      "type": "soup",
+      "img": "Sinigang-habhab.jpg"
     },
     {
       "name": "Lechon",
