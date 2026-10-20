@@ -2358,7 +2358,8 @@
         220
       ],
       "about": "Chicken or pork braised in vinegar, soy sauce, garlic and bay leaf. Every family has its own version. Best with plain rice.",
-      "type": "main"
+      "type": "main",
+      "img": "Adobo-habhab.jpg"
     },
     {
       "name": "Sinigang",
@@ -2382,7 +2383,8 @@
         500
       ],
       "about": "Whole roast pig with crackling skin. Cebu's version is stuffed with lemongrass and needs no sauce.",
-      "type": "main"
+      "type": "main",
+      "img": "Lechon-habhab.jpg"
     },
     {
       "name": "Kinilaw",
