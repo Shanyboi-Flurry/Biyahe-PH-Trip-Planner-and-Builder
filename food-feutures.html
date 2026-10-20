@@ -3,43 +3,106 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Food & Festivals | Philippines Trip</title>
-  
+  <title>Festivals and food | Plan Your Philippines Trip</title>
+  <meta name="description" content="Find a Philippine festival for your travel month, plus local food to try and fruit in season.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%8C%B4%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <h1>Philippines Trip Planner</h1>
-    <nav class="navbar">
-        <a href="destinations.html">Destinations</a>
-        <a href="budget-planner.html">Budget Planner</a>
-        <a href="food-festivals.html" class="active">Food & Festivals</a>
-        <a href="commute-guide.html">Commute Guide</a>
-        <a href="tips-phrases.html">Tips & Phrases</a>
-        <a href="contact-faq.html">Contact & FAQ</a>
-    </nav>
-    <button id="themeBtn" type="button">Dark mode</button>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <!-- Underwater reef behind the whole page. Put your clip at video/reef.mp4 -->
+  <div class="reef-bg" aria-hidden="true">
+    <video id="reefVideo" muted loop playsinline preload="auto"></video>
+    <div class="rays"></div>
+    <div class="caustics"></div>
+    <div class="reef-shade"></div>
+  </div>
+  <div id="bubbles" class="bubbles" aria-hidden="true"></div>
+
+  <div class="navwrap">
+    <div class="navmenu" id="navMenu">
+      <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="tabsNav"><span></span><span></span><span></span></button>
+      <nav id="tabsNav" class="tabs" aria-label="Site pages">
+        <a class="tab" href="index.html"><span class="ti" aria-hidden="true">🧭</span>Plan a trip</a>
+        <a class="tab" href="destinations.html"><span class="ti" aria-hidden="true">🏝️</span>Destinations</a>
+        <a class="tab" href="budget-planner.html"><span class="ti" aria-hidden="true">💰</span>Budget planner</a>
+        <a class="tab active" href="food-festivals.html" aria-current="page"><span class="ti" aria-hidden="true">🎉</span>Festivals and food</a>
+        <a class="tab" href="commute-guide.html"><span class="ti" aria-hidden="true">🛺</span>Getting around</a>
+        <a class="tab" href="tips-phrases.html"><span class="ti" aria-hidden="true">🛟</span>Safety and phrases</a>
+        <a class="tab" href="contact-faq.html"><span class="ti" aria-hidden="true">💬</span>Contact and FAQ</a>
+      </nav>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-stage compact">
+      <div class="hero-bg" aria-hidden="true">
+        <video id="heroVideo" muted playsinline preload="auto"></video>
+        <div id="heroSlides"></div>
+        <div class="shade"></div>
+      </div>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>Festivals and <span class="flow">food</span></h1>
+        <p class="lede">Find a festival for your travel month, then see what to eat and which fruit is in season.</p>
+      </div>
+        <div class="cur-box">
+          <label for="cur">I'm travelling from</label>
+          <select id="cur" aria-describedby="curNote"></select>
+          <p id="curNote" class="cur-note">Prices are shown in pesos and in your currency.</p>
+        </div>
+    </div>
+      <div class="place-label" aria-hidden="true">
+        <strong id="plName" class="pl-name"></strong>
+        <span id="plRegion" class="pl-region"></span>
+      </div>
+    </div>
   </header>
-  <main>
-    <h2>Festivals</h2>
-    <label>Month <select id="monthSelect"></select></label>
-    <div id="festivalList" class="cards"></div>
-    <h2>Food to try</h2>
-    <label>Type
-      <select id="foodType">
-        <option value="all">All types</option>
-        <option value="main">Main dishes</option>
-        <option value="grill">Grilled (inihaw)</option>
-        <option value="street">Street food</option>
-        <option value="soup">Soups</option>
-        <option value="sweet">Sweets</option>
-      </select>
-    </label>
-    <div id="foodList" class="cards"></div>
-  
+
+  <main id="main" tabindex="-1">
+    <p id="loadError" class="error" hidden>Could not load data.json. Open this folder with a local server instead of double-clicking the file. In VS Code, install "Live Server" and choose "Open with Live Server".</p>
+
+    <section id="festivals" class="panel">
+      <h2>Festival calendar</h2>
+      <div id="monthStrip" class="month-strip" role="group" aria-label="Choose a month"></div>
+      <div id="fList" class="grid photo-grid"></div>
+      <h2>Local food to try</h2>
+      <div class="form row">
+        <label>Region <select id="foodRegion"></select></label>
+        <label>Type <select id="foodType">
+          <option value="all">All types</option><option value="main">Main dishes</option><option value="grill">Inihaw (grilled)</option>
+          <option value="street">Street food</option><option value="soup">Soups</option><option value="sweet">Sweets and desserts</option>
+        </select></label>
+      </div>
+      <div id="foodGrid" class="grid photo-grid"></div>
+
+      <h2>Fruits to try</h2>
+      <p class="hint">Tropical fruit changes with the season. The month you picked in the festival calendar above is used here too.</p>
+      <div class="form row">
+        <label class="inline"><input id="frSeason" type="checkbox"> Only fruit in season for that month</label>
+        <label class="inline"><input id="frUnique" type="checkbox"> Only fruit that is uncommon abroad</label>
+      </div>
+      <div id="fruitGrid" class="grid photo-grid"></div>
+    </section>
+
   </main>
+
   <footer>
-    <p>Prices are rough estimates in pesos.</p>
+    <p class="foot-nav"><a href="index.html">Plan a trip</a> &middot; <a href="destinations.html">Destinations</a> &middot; <a href="budget-planner.html">Budget planner</a> &middot; <a href="food-festivals.html">Festivals and food</a> &middot; <a href="commute-guide.html">Getting around</a> &middot; <a href="tips-phrases.html">Safety and phrases</a> &middot; <a href="contact-faq.html">Contact and FAQ</a></p>
+    <p>Costs are rough estimates and exclude international flights. Check current prices before you book.</p>
+    <p>Weather by Open-Meteo. Exchange rates by Frankfurter, so they need an internet connection. Photos from Wikipedia and Wikimedia Commons.</p>
   </footer>
+
+  <!-- Photo dialog: opens when a card is clicked -->
+  <dialog id="placeDlg" class="place-dlg" aria-labelledby="pdTitle"></dialog>
+
+
+  <div class="bg-ui">
+    <button id="bgToggle" class="bg-toggle" type="button" aria-pressed="false">Pause motion</button>
+  </div>
   <script src="js/data.js"></script>
   <script src="js/theme.js"></script>
   <script src="js/food-festivals.js"></script>
