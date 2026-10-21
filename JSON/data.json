@@ -184,6 +184,7 @@
       "lon": 119.39,
       "emoji": "🏝️",
       "wiki": "El_Nido,_Palawan",
+      "img": "images/place/el nido.jpg",
       "tags": [
         "beach",
         "nature",
@@ -326,6 +327,7 @@
       "lon": 120.2,
       "emoji": "🤿",
       "wiki": "Coron,_Palawan",
+      "img": "images/place/palawan.jpg",
       "tags": [
         "beach",
         "adventure",
@@ -1509,6 +1511,7 @@
       "lon": 121.92,
       "emoji": "⛵",
       "wiki": "Boracay",
+      "img": "images/place/boracay.jpg",
       "tags": [
         "beach",
         "food"
@@ -1645,6 +1648,7 @@
       "lon": 123.4,
       "emoji": "🐟",
       "wiki": "Moalboal",
+      "img": "images/place/cebu.jpg",
       "tags": [
         "adventure",
         "beach",
@@ -2057,6 +2061,7 @@
       "lon": 123.52,
       "emoji": "🔥",
       "wiki": "Siquijor",
+      "img": "images/place/siquijor.jpg",
       "tags": [
         "beach",
         "nature"
@@ -2661,7 +2666,7 @@
       ],
       "about": "Milkfish stuffed with tomato and onion, then grilled. Pangasinan is famous for it.",
       "type": "grill",
-      "img": "Inihaw-bangus-habhab.jpg"
+      "img": "foods/Inihaw-bangus-habhab.jpg"
     },
     {
       "name": "Isaw",
@@ -2710,7 +2715,7 @@
       ],
       "about": "Small crisp spring rolls of minced pork. A party favorite.",
       "type": "street",
-      "img": "lumpiangshanghai-habhab.jpg"
+      "img": "foods/lumpiangshanghai-habhab.jpg"
     },
     {
       "name": "Tinola",
@@ -2969,7 +2974,8 @@
       "food": "Lechon, of course",
       "wiki": "Parada_ng_Lechon",
       "alt": "Balayan,_Batangas",
-      "emoji": "🐖"
+      "emoji": "🐖",
+      "img": "festivals/parada-lechon.jpg"
     },
     {
       "name": "Sandugo",
@@ -3090,7 +3096,8 @@
       "food": "Pampanga sisig and tocino",
       "wiki": "Philippine_International_Hot_Air_Balloon_Festival",
       "alt": "Clark_Freeport_and_Special_Economic_Zone",
-      "emoji": "🎈"
+      "emoji": "🎈",
+      "img": "festivals/hotair.jpg"
     },
     {
       "name": "Pamulinawen Festival",
@@ -3134,7 +3141,8 @@
       "food": "Inihaw na bangus and daing",
       "wiki": "Bangus_Festival",
       "alt": "Dagupan",
-      "emoji": "🐟"
+      "emoji": "🐟",
+      "img": "festivals/bangus-festival.jpg"
     },
     {
       "name": "Carabao Festival",
@@ -3145,7 +3153,8 @@
       "food": "Local kakanin and kalamay",
       "wiki": "Carabao_Festival",
       "alt": "Pulilan",
-      "emoji": "🐃"
+      "emoji": "🐃",
+      "img": "festivals/carabao-fest.jpg"
     },
     {
       "name": "Wattah Wattah Festival",
@@ -3179,7 +3188,7 @@
       "wiki": "Lanzones_Festival",
       "alt": "Camiguin",
       "emoji": "🍈",
-      "img": "lanzones-festival.jpg"
+      "img": "festivals/lanzones-festival.jpg"
     },
     {
       "name": "Zamboanga Hermosa Festival",
@@ -3191,7 +3200,7 @@
       "wiki": "Zamboanga_Hermosa_Festival",
       "alt": "Zamboanga_City",
       "emoji": "⛵",
-      "img": "zamboanga-festival.jpg"
+      "img": "festivals/zamboanga-festival.jpg"
     },
     {
       "name": "Higantes Festival",
@@ -3202,7 +3211,8 @@
       "food": "Local sweets and grilled fish",
       "wiki": "Higantes_Festival",
       "alt": "Angono,_Rizal",
-      "emoji": "🗿"
+      "emoji": "🗿",
+      "img": "festivals/higantes.jpg"
     },
     {
       "name": "Noche Buena",
@@ -3213,7 +3223,8 @@
       "food": "Hamon, queso de bola and lechon",
       "wiki": "Noche_Buena",
       "alt": "Philippines",
-      "emoji": "🍽️"
+      "emoji": "🍽️",
+      "img": "festivals/noche-buena.jpg"
     }
   ],
   "transport": [
@@ -3800,6 +3811,7 @@
       "name": "Lanzones",
       "wiki": "Lansium_parasiticum",
       "emoji": "🍇",
+      "img": "images/fruits/lanzones-fut.jpg",
       "months": [
         10,
         11
@@ -3835,6 +3847,7 @@
       "name": "Mangosteen",
       "wiki": "Mangosteen",
       "emoji": "🍇",
+      "img": "images/fruits/mangosteen-fut.jpg",
       "months": [
         7,
         8,
@@ -3965,6 +3978,7 @@
       "name": "Santol",
       "wiki": "Sandoricum_koetjape",
       "emoji": "🍑",
+      "img": "images/fruits/santol-fut.jpg",
       "months": [
         5,
         6,
@@ -4003,6 +4017,7 @@
       "name": "Duhat (Java plum)",
       "wiki": "Syzygium_cumini",
       "emoji": "🫐",
+      "img": "images/fruits/duhat-fut.jpg",
       "months": [
         5,
         6,
