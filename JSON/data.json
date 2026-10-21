@@ -203,25 +203,32 @@
         {
           "n": "Island hopping Tour A",
           "c": 1400,
-          "wiki": "El_Nido,_Palawan"
+          "wiki": "El_Nido,_Palawan",
+          "img": "images/activities/elnido-tour-a.jpg"
         },
         {
           "n": "Island hopping Tour C",
-          "c": 1500
+          "c": 1500,
+          "wiki": "El_Nido,_Palawan",
+          "img": "images/activities/elnido-tour-c.jpg"
         },
         {
           "n": "Kayak in the Small Lagoon",
           "c": 500,
-          "wiki": "El_Nido,_Palawan"
+          "wiki": "El_Nido,_Palawan",
+          "img": "images/activities/kayak-lagoon.jpg"
         },
         {
           "n": "Sunset at Nacpan Beach (tricycle)",
           "c": 800,
-          "wiki": "Nacpan_Beach"
+          "wiki": "Nacpan_Beach",
+          "img": "images/activities/nacpan-beach.jpg"
         },
         {
           "n": "Taraw Cliff via ferrata",
-          "c": 1800
+          "c": 1800,
+          "wiki": "Taraw_Clip",
+          "img": "images/activities/taraw-cliff.jpg"
         }
       ],
       "foodNames": [
@@ -338,20 +345,24 @@
         {
           "n": "Island hopping (Kayangan Lake, Twin Lagoon)",
           "c": 1500,
-          "wiki": "Kayangan_Lake"
+          "wiki": "Kayangan_Lake",
+          "img": "images/activities/kayangan-lake.jpg"
         },
         {
           "n": "Shipwreck snorkeling tour",
-          "c": 1800
+          "c": 1800,
+          "img": "images/activities/shipwreck-snorkeling.jpg"
         },
         {
           "n": "Maquinit Hot Spring",
-          "c": 300
+          "c": 300,
+          "img": "images/activities/maquinit-hot-spring.jpg"
         },
         {
           "n": "Mt. Tapyas sunset climb",
           "c": 50,
-          "wiki": "Coron,_Palawan"
+          "wiki": "Coron,_Palawan",
+          "img": "images/activities/mt-tapyas.jpg"
         }
       ],
       "foodNames": [
@@ -468,15 +479,18 @@
         {
           "n": "Underground River tour (permit and boat)",
           "c": 2200,
-          "wiki": "Puerto_Princesa_Underground_River"
+          "wiki": "Puerto_Princesa_Underground_River",
+          "img": "images/activities/underground-river.jpg"
         },
         {
           "n": "Honda Bay island hopping",
-          "c": 1500
+          "c": 1500,
+          "img": "images/activities/honda-bay.jpg"
         },
         {
           "n": "Firefly watching",
-          "c": 1000
+          "c": 1000,
+          "img": "images/activities/firefly-watching.jpg"
         }
       ],
       "foodNames": [
@@ -592,22 +606,26 @@
         {
           "n": "Fort Santiago entrance",
           "c": 75,
-          "wiki": "Fort_Santiago"
+          "wiki": "Fort_Santiago",
+          "img": "images/activities/fort-santiago.jpg"
         },
         {
           "n": "San Agustin Church museum",
           "c": 200,
-          "wiki": "San_Agustin_Church_(Manila)"
+          "wiki": "San_Agustin_Church_(Manila)",
+          "img": "images/activities/san-agustin-church.jpg"
         },
         {
           "n": "Binondo food crawl (guided)",
           "c": 1500,
-          "wiki": "Binondo"
+          "wiki": "Binondo",
+          "img": "images/activities/binondo-food-crawl.jpg"
         },
         {
           "n": "Casa Manila",
           "c": 75,
-          "wiki": "Casa_Manila"
+          "wiki": "Casa_Manila",
+          "img": "images/activities/casa-manila.jpg"
         }
       ],
       "foodNames": [
@@ -754,19 +772,25 @@
         {
           "n": "Kalesa ride on Calle Crisologo",
           "c": 250,
-          "wiki": "Vigan"
+          "wiki": "Vigan",
+          "img": "images/activities/kalesa-ride.jpg"
         },
         {
           "n": "Pottery at Pagburnayan",
-          "c": 150
+          "c": 150,
+          "wiki": "Vigan",
+          "img": "images/activities/pottery.jpg"
         },
         {
           "n": "Crisologo Museum",
-          "c": 50
+          "c": 50,
+          "img": "images/activities/crisologo-museum.jpg"
         },
         {
           "n": "Guided heritage walk",
-          "c": 600
+          "c": 600,
+          "wiki": "Vigan",
+          "img": "images/activities/heritage-walk.jpg"
         }
       ],
       "foodNames": [
@@ -873,21 +897,25 @@
         {
           "n": "Batad guided trek",
           "c": 900,
-          "wiki": "Batad"
+          "wiki": "Batad",
+          "img": "images/activities/batad-guided-trek.jpg"
         },
         {
           "n": "Tricycle to Batad saddle",
           "c": 500,
-          "wiki": "Batad"
+          "wiki": "Batad",
+          "img": "images/activities/tricycle-to-batad.jpg"
         },
         {
           "n": "Banaue viewpoint and Bocos tour",
           "c": 500,
-          "wiki": "Banaue_Rice_Terraces"
+          "wiki": "Banaue_Rice_Terraces",
+          "img": "images/activities/banaue-viewpoint.jpg"
         },
         {
           "n": "Weaving village visit",
-          "c": 100
+          "c": 100,
+          "img": "images/activities/weaving-village.jpg"
         }
       ],
       "foodNames": [
@@ -993,15 +1021,20 @@
         {
           "n": "4x4 ride and trek to the crater lake",
           "c": 2800,
-          "wiki": "Mount_Pinatubo"
+          "wiki": "Mount_Pinatubo",
+          "img": "images/activities/pinatubo-4x4.jpg"
         },
         {
           "n": "Sisig tasting in Angeles",
-          "c": 350
+          "c": 350,
+          "wiki": "Sisig",
+          "img": "images/activities/sisig-tasting.jpg"
         },
         {
           "n": "Pampanga cooking class",
-          "c": 1500
+          "c": 1500,
+          "wiki": "Pampanga_cuisine",
+          "img": "images/activities/pampanga-cooking-class.jpg"
         }
       ],
       "foodNames": [
@@ -1128,16 +1161,20 @@
         {
           "n": "Mayon ATV adventure",
           "c": 1500,
-          "wiki": "Mayon_Volcano"
+          "wiki": "Mayon_Volcano",
+          "img": "images/activities/mayon-atv.jpg"
         },
         {
           "n": "Cagsawa Ruins entrance",
           "c": 50,
-          "wiki": "Cagsawa_Ruins"
+          "wiki": "Cagsawa_Ruins",
+          "img": "images/activities/cagsawa-ruins.jpg"
         },
         {
           "n": "Lignon Hill zipline",
-          "c": 400
+          "c": 400,
+          "wiki": "Lignon_Hill",
+          "img": "images/activities/lignon-hill-zipline.jpg"
         }
       ],
       "foodNames": [
@@ -1263,21 +1300,27 @@
       "acts": [
         {
           "n": "Sumaguing Cave connection (guided)",
-          "c": 600
+          "c": 600,
+          "wiki": "Sumaguing_Cave",
+          "img": "images/activities/sumaguing-cave.jpg"
         },
         {
           "n": "Sunrise at Kiltepan",
-          "c": 300
+          "c": 300,
+          "wiki": "Kiltepan",
+          "img": "images/activities/kiltepan-sunrise.jpg"
         },
         {
           "n": "Echo Valley hanging coffins",
           "c": 150,
-          "wiki": "Sagada"
+          "wiki": "Sagada",
+          "img": "images/activities/echo-valley.jpg"
         },
         {
           "n": "Bomod-ok Falls trek",
           "c": 700,
-          "wiki": "Sagada"
+          "wiki": "Sagada",
+          "img": "images/activities/bomod-ok-falls.jpg"
         }
       ],
       "foodNames": [
@@ -1373,16 +1416,22 @@
       "acts": [
         {
           "n": "North Batan day tour",
-          "c": 1200
+          "c": 1200,
+          "wiki": "Batanes",
+          "img": "images/activities/north-batan-tour.jpg"
         },
         {
           "n": "Sabtang Island day trip",
           "c": 1800,
-          "wiki": "Sabtang,_Batanes"
+          "wiki": "Sabtang,_Batanes",
+          "img": "images/activities/sabtang-island.jpg"
         },
         {
           "n": "Bike rental",
-          "c": 500
+          "c": 500,
+          "wiki": "Batanes",
+          "img": "images/activities/bike-rental.jpg"
+
         }
       ],
       "foodNames": [
@@ -1478,20 +1527,26 @@
         {
           "n": "Sunset paraw sailing",
           "c": 500,
-          "wiki": "Boracay"
+          "wiki": "Boracay",
+          "img": "images/activities/paraw-sailing.jpg"
         },
         {
           "n": "Island hopping",
-          "c": 1000
+          "c": 1000,
+          "wiki": "Boracay",
+          "img": "images/activities/island-hopping.jpg"
         },
         {
           "n": "Parasailing",
-          "c": 2500
+          "c": 2500,
+          "wiki": "Boracay",
+          "img": "images/activities/parasailing.jpg"
         },
         {
           "n": "Puka Shell Beach (tricycle)",
           "c": 300,
-          "wiki": "Boracay"
+          "wiki": "Boracay",
+          "img": "images/activities/puka-shell-beach.jpg"
         }
       ],
       "foodNames": [
@@ -1609,21 +1664,26 @@
         {
           "n": "Snorkel the sardine run",
           "c": 300,
-          "wiki": "Moalboal"
+          "wiki": "Moalboal",
+          "img": "images/activities/sardine-run.jpg"
         },
         {
           "n": "Kawasan Falls canyoneering",
           "c": 1400,
-          "wiki": "Kawasan_Falls"
+          "wiki": "Kawasan_Falls",
+          "img": "images/activities/kawasan-falls.jpg"
         },
         {
           "n": "Pescador Island hopping",
           "c": 1200,
-          "wiki": "Pescador_Island"
+          "wiki": "Pescador_Island",
+          "img": "images/activities/pescador-island.jpg"
         },
         {
           "n": "Osmena Peak sunrise hike",
-          "c": 100
+          "c": 100,
+          "wiki": "Osmena_Peak",
+          "img": "images/activities/osmena-peak.jpg"
         }
       ],
       "foodNames": [
@@ -1740,21 +1800,26 @@
         {
           "n": "Countryside tour (Chocolate Hills, tarsier)",
           "c": 1200,
-          "wiki": "Chocolate_Hills"
+          "wiki": "Chocolate_Hills",
+          "img": "images/activities/chocolate-hills.jpg"
         },
         {
           "n": "Loboc River lunch cruise",
           "c": 450,
-          "wiki": "Loboc,_Bohol"
+          "wiki": "Loboc,_Bohol",
+          "img": "images/activities/loboc-river.jpg"
         },
         {
           "n": "Balicasag and Virgin Island hopping",
           "c": 900,
-          "wiki": "Balicasag_Island"
+          "wiki": "Balicasag_Island",
+          "img": "images/activities/balicasag-island.jpg"
         },
         {
           "n": "Firefly watching",
-          "c": 650
+          "c": 650,
+          "wiki": "Bohol",
+          "img": "images/activities/firefly.jpg"
         }
       ],
       "foodNames": [
@@ -1881,15 +1946,20 @@
         {
           "n": "Apo Island turtle snorkeling",
           "c": 1800,
-          "wiki": "Apo_Island"
+          "wiki": "Apo_Island",
+          "img": "images/activities/apo-island-turtle-snorkeling.jpg"
         },
         {
           "n": "Twin Lakes tour",
-          "c": 1200
+          "c": 1200,
+          "wiki": "Twin_Lakes",
+          "img": "images/activities/twin-lakes.jpg"
         },
         {
           "n": "Casaroro Falls",
-          "c": 150
+          "c": 150,
+          "wiki": "Casaroro_Falls",
+          "img": "images/activities/casaroro-falls.jpg"
         }
       ],
       "foodNames": [
@@ -2004,19 +2074,27 @@
       "acts": [
         {
           "n": "Scooter rental (per day)",
-          "c": 500
+          "c": 500,
+          "wiki": "Siquijor",
+          "img": "images/activities/scooter-rental.jpg" 
         },
         {
           "n": "Cambugahay Falls",
-          "c": 50
+          "c": 50,
+          "wiki": "Cambugahay_Falls",
+          "img": "images/activities/cambugahay-falls.jpg"
         },
         {
           "n": "Salagdoong Beach",
-          "c": 100
+          "c": 100,
+          "wiki": "Salagdoong_Beach",
+          "img": "images/activities/salagdoong-beach.jpg"
         },
         {
           "n": "Island tour by tricycle",
-          "c": 800
+          "c": 800,
+          "wiki": "Siquijor",
+          "img": "images/activities/island-tour.jpg"
         }
       ],
       "foodNames": [
@@ -2122,21 +2200,26 @@
         {
           "n": "Surf lesson at Cloud 9",
           "c": 800,
-          "wiki": "Siargao"
+          "wiki": "Siargao",
+          "img": "images/activities/surf-lesson.jpg"
         },
         {
           "n": "Naked, Daku and Guyam island hopping",
           "c": 1000,
-          "wiki": "Siargao"
+          "wiki": "Siargao",
+          "img": "images/activities/island-hopping.jpg"
         },
         {
           "n": "Sugba Lagoon tour",
           "c": 1800,
-          "wiki": "Siargao"
+          "wiki": "Siargao",
+          "img": "images/activities/sugba-lagoon.jpg"
         },
         {
           "n": "Scooter rental (per day)",
-          "c": 500
+          "c": 500,
+          "wiki": "Siargao",
+          "img": "images/activities/scooter-rental.jpg"
         }
       ],
       "foodNames": [
@@ -2243,20 +2326,26 @@
         {
           "n": "White Island sandbar boat",
           "c": 350,
-          "wiki": "White_Island_(Camiguin)"
+          "wiki": "White_Island_(Camiguin)",
+          "img": "images/activities/white-island-sandbar.jpg"
         },
         {
           "n": "Island tour by van",
-          "c": 600
+          "c": 600,
+          "wiki": "Camiguin",
+          "img": "images/activities/island-tour.jpg"
         },
         {
           "n": "Katibawasan Falls",
           "c": 30,
-          "wiki": "Katibawasan_Falls"
+          "wiki": "Katibawasan_Falls",
+          "img": "images/activities/katibawasan-falls.jpg"
         },
         {
           "n": "Ardent Hot Spring",
-          "c": 150
+          "c": 150,
+          "wiki": "Ardent_Hot_Spring",
+          "img": "images/activities/ardent-hot-spring.jpg"
         }
       ],
       "foodNames": [
